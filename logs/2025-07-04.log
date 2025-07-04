@@ -1,0 +1,18 @@
+2025-07-04 12:58:08,926 - INFO -                                                              
+2025-07-04 12:58:08,926 - INFO - # ================= Started New Iteration ================= #
+2025-07-04 12:58:08,926 - INFO -                                                              
+2025-07-04 12:58:08,927 - INFO - [MAIN] API called: /select-files/
+2025-07-04 12:58:08,927 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-04 12:58:08,930 - INFO -                                                              
+2025-07-04 12:58:08,930 - INFO -                                                              
+2025-07-04 12:58:08,931 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-04 12:58:08,932 - INFO - [PATH FILES SELECTOR] Folder path resolved: .
+2025-07-04 12:58:08,932 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-04 12:58:08,932 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-04 12:58:08,932 - INFO -                                                              
+2025-07-04 12:58:08,932 - INFO -                                                              
+2025-07-04 12:58:08,932 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-04 12:58:08,932 - INFO - [DATA PROVIDER] Folder Path: .
+2025-07-04 12:58:08,932 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-04 12:58:08,932 - INFO -                                                              
+2025-07-04 12:58:08,932 - INFO - [DATA PROVIDER] Final grouped list of lists: [['fajankss.xlsx', 'gSraawe.csv', 'ikkaajs.xls', 'qajshs.xlsm'], ['h_python-Slip.pdf', 'sample1.pdf', 'sample2.pdf'], ['byslsks.pptx', 'glaahkal.ppt', 'llgaajajs.pptm'], ['Hi_Priya,.txt'], ['djksgsp.docx', 'oaopsp.doc'], []]

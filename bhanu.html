@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LINL - Data Pre-Process Pipeline</title>
+    <style>
+        @font-face {
+            font-family: 'tahoma';
+            src: url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/webfonts/fonts.woff2') format('woff2');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #2c2c2c;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-image: 
+                linear-gradient(rgba(60, 60, 60, 0.3) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(60, 60, 60, 0.3) 1px, transparent 1px);
+            background-size: 20px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-family: "Bauhaus 93", sans-serif;
+            text-transform: uppercase;
+            font-size: 3rem;
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+            text-shadow: 0 0 10px rgba(255, 126, 0, 0.3);
+        }
+
+        .title {
+            font-family: "Bauhaus 93", sans-serif;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            letter-spacing: 2px;
+            color: #ffffff;
+            text-shadow: 0 0 5px rgba(255, 126, 0, 0.2);
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card {
+            background-color: #3a3a3a;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+            min-height: 300px;
+            border: 1px solid #4a4a4a;
+            /* background-image: 
+                linear-gradient(rgba(70, 70, 70, 0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 119, 0, 0.1) 1px, transparent 1px); */
+            background-size: 10px 10px;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px#ff7e00;
+        }
+
+        .card-title {
+            font-weight: bold;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #ff7e00;
+            padding-bottom: 10px;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+
+        .section-title {
+            font-weight: bold;
+            margin: 25px 0 10px 0;
+            color: #ffffff;
+            font-size: 12px;
+            text-transform: uppercase;
+            position: relative;
+            padding-left: 15px;
+        }
+
+        .section-title:before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            background-color: #ff7e00;
+            border-radius: 2px;
+        }
+
+        .section-divider {
+            height: 1px;
+            background: linear-gradient(90deg, transparent, #ff7e00, transparent);
+            margin: 20px 0;
+            position: relative;
+        }
+
+        .section-divider:after {
+            content: "•";
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: #ff7e00;
+            background-color: #3a3a3a;
+            padding: 0 10px;
+        }
+
+        .field {
+            margin-bottom: 15px;
+        }
+
+        .field-name {
+            color: #cccccc;
+            margin-bottom: 5px;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            background-color: #2c2c2c;
+            border: 1px solid #555;
+            color: #ffffff;
+            border-radius: 5px;
+            margin-top: 5px;
+            transition: border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        input:focus, select:focus {
+            border-color: #ff7e00;
+            box-shadow: 0 0 0 2px rgba(255, 126, 0, 0.2);
+            outline: none;
+        }
+
+        input[type="file"] {
+            display: none;
+        }
+
+        .file-label {
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #2c2c2c;
+            color: #ffffff;
+            border: 1px solid #555;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 5px;
+            transition: background-color 0.2s ease, border-color 0.2s ease;
+        }
+
+        .file-label:hover {
+            background-color: #444444;
+            border-color: #ff7e00;
+        }
+
+        .file-list {
+            margin-top: 10px;
+            color: #cccccc;
+            font-size: 12px;
+            padding-left: 10px;
+            border-left: 2px solid #ff7e00;
+        }
+
+        .start-button {
+            background: linear-gradient(135deg, #ffa726, #ff5722);
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            display: block;
+            margin: 40px auto;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .start-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3), 0 0 0 2px rgba(255, 126, 0, 0.3);
+        }
+
+        .start-button:active {
+            transform: translateY(1px);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .progress-indicators {
+            position: absolute;
+            display: none;
+            width: 50px;
+            height: 2px;
+            background-color: #ff7e00;
+            top: 50%;
+            right: -52px;
+            z-index: 10;
+        }
+
+        .progress-indicators::after {
+            content: '';
+            position: absolute;
+            top: -4px;
+            right: -7px;
+            width: 0;
+            height: 0;
+            border-top: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 8px solid #ff7e00;
+        }
+
+        .completed {
+            background-color: #4CAF50;
+            border-color: #4CAF50;
+        }
+
+        .completed::after {
+            border-left-color: #4CAF50;
+        }
+
+        .active-card {
+            border: 2px solid #ff7e00;
+        }
+
+        /* Animations */
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(255, 126, 0, 0.4); }
+            70% { box-shadow: 0 0 0 10px rgba(255, 126, 0, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(255, 126, 0, 0); }
+        }
+
+        .pulsing {
+            animation: pulse 1.5s infinite;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="logo">XIPHOLDS</h1>
+        <h2 class="title"> DYNAMIC RETRIEVAL AUGMENTATION </h2>
+
+        <div class="grid-container">
+            <!-- Card 1: Connect to a Data Source -->
+            <div class="card" id="card-1">
+                <div class="progress-indicators" id="progress-1"></div>
+                <h3 class="card-title">Connect to a Data Source</h3>
+                
+                <div class="field">
+                    <div class="field-name">Sources:</div>
+                    <select id="source-select">
+                        <option value="hard_drive">HARD DRIVE</option>
+                        <option value="cloud">CLOUD STORAGE</option>
+                        <option value="database">DATABASE</option>
+                        <option value="api">API ENDPOINT</option>
+                    </select>
+                </div>
+                
+                <div class="field">
+                    <div class="field-name">Select Files:</div>
+                    <label for="file-upload" class="file-label">Choose Files</label>
+                    <input type="file" id="file-upload" multiple>
+                    <div class="file-list" id="file-list">[ File 1, File 2, File 3 ]</div>
+                </div>
+            </div>
+
+            <!-- Card 2: Select a Model -->
+            <div class="card" id="card-2">
+                <div class="progress-indicators" id="progress-2"></div>
+                <h3 class="card-title">Select a Model</h3>
+                
+                <div class="field">
+                    <div class="field-name">Embedding Model:</div>
+                    <select id="embedding-model">
+                        <option value="es-large-v2">E5-Large-V2</option>
+                        <option value="es-large-v2">E5-Large-V2</option>
+                        <option value="bert-base">BERT-Base</option>
+                        <option value="mpnet-base">MPNet-Base</option>
+                    </select>
+                </div>
+                
+                <div class="field">
+                    <div class="field-name">Embedding Dimension:</div>
+                    <input type="text" id="embedding-dimension" value="384">
+                </div>
+
+                <div class="section-divider"></div>
+
+                <h4 class="section-title">Embedding & Retrieval Settings</h4>
+                
+                <div class="field">
+                    <div class="field-name">Distance Metric:</div>
+                    <select id="distance-metric">
+                        <option value="jaccard">Jaccard Similarity (Jaccard Index)</option>
+                        <option value="jaccard">Jaccard Similarity (Jaccard Index)</option>
+                        <option value="cosine">Cosine Similarity</option>
+                        <option value="euclidean">Euclidean Distance</option>
+                    </select>
+                </div>
+                
+                <div class="field">
+                    <div class="field-name">Vector Database:</div>
+                    <input type="text" id="vector-database" value="xxxxxx">
+                </div>
+                
+                <div class="field">
+                    <div class="field-name">LLM Max Input Limit:</div>
+                    <input type="text" id="max-input" value="xxxxxx">
+                </div>
+                
+                <div class="field">
+                    <div class="field-name">Chunk Size:</div>
+                    <input type="text" id="chunk-size" value="xxxxxx">
+                </div>
+                
+                <div class="field">
+                    <div class="field-name">Chunk Overlap:</div>
+                    <input type="text" id="chunk-overlap" value="xxxxxx">
+                </div>
+                
+                <div class="field">
+                    <div class="field-name">Retrieval Context Length:</div>
+                    <input type="text" id="context-length" value="xxxxxx">
+                </div>
+            </div>
+
+            <!-- Card 3: Retrieval Optimization -->
+            <div class="card" id="card-3">
+                <div class="progress-indicators" id="progress-3"></div>
+                <h3 class="card-title">Retrieval Optimization Settings</h3>
+                
+                <div class="field">
+                    <div class="field-name">Temperature:</div>
+                    <select id="temperature">
+                        <option value="es-large-v2">E5-Large-V2</option>
+                        <option value="es-large-v2">E5-Large-V2</option>
+                        <option value="0.2">0.2</option>
+                        <option value="0.7">0.7</option>
+                    </select>
+                </div>
+                
+                <div class="field">
+                    <div class="field-name">Indexing Strategy:</div>
+                    <input type="text" id="indexing-strategy" value="384">
+                </div>
+                
+                <div class="field">
+                    <div class="field-name"># Retrieved Chunks:</div>
+                    <input type="text" id="retrieved-chunks" value="xxxxxx">
+                </div>
+                
+                <div class="field">
+                    <div class="field-name">Re-Ranking:</div>
+                    <input type="text" id="re-ranking" value="xxxxxx">
+                </div>
+                
+                <div class="field">
+                    <div class="field-name">Response Length Restriction:</div>
+                    <input type="text" id="length-restriction" value="xxxxxx">
+                </div>
+                
+                <div class="field">
+                    <div class="field-name">Citation Tracking:</div>
+                    <input type="text" id="citation-tracking" value="xxxxxx">
+                </div>
+                
+                <div class="field">
+                    <div class="field-name">Confidence Score Threshold:</div>
+                    <input type="text" id="confidence-threshold" value="xxxxxx">
+                </div>
+                
+                <div class="field">
+                    <div class="field-name">Hallucination Detection:</div>
+                    <input type="text" id="hallucination-detection" value="xxxxxx">
+                </div>
+            </div>
+
+            <!-- Card 4: Performance & Response Optimization -->
+            <div class="card" id="card-4">
+                <h3 class="card-title">Performance & Response Optimization</h3>
+                
+                <div class="field">
+                    <div class="field-name">Latency Constraints:</div>
+                    <select id="latency-constraints">
+                        <option value="es-large-v2">E5-Large-V2</option>
+                        <option value="es-large-v2">E5-Large-V2</option>
+                        <option value="low">Low (100ms)</option>
+                        <option value="medium">Medium (500ms)</option>
+                    </select>
+                </div>
+                
+                <div class="field">
+                    <div class="field-name">Batch Processing:</div>
+                    <input type="text" id="batch-processing" value="384">
+                </div>
+                
+                <div class="field">
+                    <div class="field-name">Response Refinement:</div>
+                    <input type="text" id="response-refinement" value="xxxxxx">
+                </div>
+            </div>
+        </div>
+
+        <button id="start-button" class="start-button">Start Data Pre-Processing</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // File upload handling
+            const fileUpload = document.getElementById('file-upload');
+            const fileList = document.getElementById('file-list');
+            
+            fileUpload.addEventListener('change', function(e) {
+                if (e.target.files.length > 0) {
+                    let fileNames = [];
+                    for (let i = 0; i < e.target.files.length; i++) {
+                        fileNames.push(e.target.files[i].name);
+                    }
+                    fileList.textContent = '[ ' + fileNames.join(', ') + ' ]';
+                    
+                    // Activate first card
+                    document.getElementById('card-1').classList.add('active-card');
+                    document.getElementById('progress-1').style.display = 'block';
+                }
+            });
+            
+            // Cards progress tracking
+            const cards = document.querySelectorAll('.card');
+            const progressIndicators = document.querySelectorAll('.progress-indicators');
+            let currentCardIndex = 0;
+            
+            function updateCardProgress() {
+                // Reset all cards
+                cards.forEach((card, index) => {
+                    card.classList.remove('active-card');
+                    card.classList.remove('pulsing');
+                    if (index < currentCardIndex) {
+                        progressIndicators[index].classList.add('completed');
+                    } else {
+                        progressIndicators[index].classList.remove('completed');
+                    }
+                });
+                
+                // Update current card
+                if (currentCardIndex < cards.length) {
+                    cards[currentCardIndex].classList.add('active-card');
+                    cards[currentCardIndex].classList.add('pulsing');
+                    if (currentCardIndex > 0) {
+                        progressIndicators[currentCardIndex-1].style.display = 'block';
+                    }
+                }
+            }
+            
+            // Simulate field input triggering progress
+            const inputs = document.querySelectorAll('input, select');
+            inputs.forEach(input => {
+                input.addEventListener('change', function() {
+                    const cardId = this.closest('.card').id;
+                    const cardIndex = parseInt(cardId.split('-')[1]) - 1;
+                    
+                    if (cardIndex === currentCardIndex) {
+                        // Complete enough fields to move to next card
+                        const cardInputs = cards[cardIndex].querySelectorAll('input, select');
+                        let filledCount = 0;
+                        cardInputs.forEach(inp => {
+                            if (inp.value && inp.value !== '') {
+                                filledCount++;
+                            }
+                        });
+                        
+                        // If more than half the fields are filled, move to next card
+                        if (filledCount > cardInputs.length / 2 && currentCardIndex < cards.length - 1) {
+                            currentCardIndex++;
+                            updateCardProgress();
+                        }
+                    }
+                });
+            });
+            
+            // Start button animation
+            const startButton = document.getElementById('start-button');
+            startButton.addEventListener('click', function() {
+                this.textContent = 'Processing...';
+                this.disabled = true;
+                
+                // Complete all cards
+                currentCardIndex = cards.length;
+                updateCardProgress();
+                
+                // Show completion animation
+                setTimeout(() => {
+                    this.style.background = 'linear-gradient(135deg, #4CAF50, #2E7D32)';
+                    this.textContent = 'Processing Complete!';
+                    
+                    // Reset after 3 seconds
+                    setTimeout(() => {
+                        this.style.background = 'linear-gradient(135deg, #ffa726, #ff5722)';
+                        this.textContent = 'Start Data Pre-Processing';
+                        this.disabled = false;
+                        currentCardIndex = 0;
+                        updateCardProgress();
+                        progressIndicators.forEach(indicator => {
+                            indicator.style.display = 'none';
+                        });
+                    }, 3000);
+                }, 2000);
+            });
+        });
+    </script>
+
+<script>
+    // ✅ Backend integration script
+    document.addEventListener('DOMContentLoaded', function() {
+        const fileUpload = document.getElementById('file-upload');
+        const fileList = document.getElementById('file-list');
+
+        let fullPaths = [];
+
+        fileUpload.addEventListener('change', function(e) {
+            fullPaths = [];
+
+            if (e.target.files.length > 0) {
+                let fileNames = [];
+                for (let i = 0; i < e.target.files.length; i++) {
+                    const file = e.target.files[i];
+                    fileNames.push(file.name);
+                    fullPaths.push(file.webkitRelativePath || file.name);
+                }
+
+                fileList.textContent = '[ ' + fileNames.join(', ') + ' ]';
+                document.getElementById('card-1').classList.add('active-card');
+                document.getElementById('progress-1').style.display = 'block';
+            }
+        });
+
+        const startButton = document.getElementById('start-button');
+        startButton.addEventListener('click', async function() {
+            if (fullPaths.length === 0) {
+                alert("Please select files first.");
+                return;
+            }
+
+            try {
+                const response = await fetch("http://127.0.0.1:8000/select-files/", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({ file_paths: fullPaths })
+                });
+
+                const result = await response.json();
+                console.log("✅ API Response:", result);
+                alert(`Folder: ${result.folder_path}\nFiles: ${result.files.join(', ')}`);
+            } catch (error) {
+                console.error("❌ API Error:", error);
+                alert("Failed to connect to the backend.");
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

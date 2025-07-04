@@ -1,0 +1,31 @@
+# Upgarde pip
+pip install --upgrade pip	
+
+# Run Requirements
+pip install -r requirements.txt
+
+
+
+
+# Final
+uvicorn main:app --reload
+python path_files_selector.py - hard coded values inside the file
+
+python -m http.server 8080
+http://127.0.0.1:8080/bhanu.html
+curl http://127.0.0.1:8000/print-selected-files/
+
+
+
+# ====================================================================== #
+
+Checking if the webpage is connected to path_files_selector.py : 
+Open the web page > select files > press start button.
+
+Result : 
+the webpage will throw a msg box 
+also in uvicorn server page the files selected are displayed.
+
+this is how we know they are connected via main.py
+
+

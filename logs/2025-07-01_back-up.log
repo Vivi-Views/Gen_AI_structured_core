@@ -1,0 +1,486 @@
+2025-07-01 00:05:05,011 - INFO - Processing selected files...
+2025-07-01 00:05:05,012 - INFO - Folder path resolved: .
+2025-07-01 00:05:05,012 - INFO - Files extracted: ['open_ps.bat', 'open_ps.txt']
+2025-07-01 00:08:13,496 - INFO - API called: /select-files/
+2025-07-01 00:08:13,496 - INFO - Files received from frontend: ['open_cmd.bat', 'open_cmd.txt', 'steps.txt']
+2025-07-01 00:08:13,496 - INFO - Processing selected files...
+2025-07-01 00:08:13,496 - INFO - Folder path resolved: .
+2025-07-01 00:08:13,496 - INFO - Files extracted: ['open_cmd.bat', 'open_cmd.txt', 'steps.txt']
+2025-07-01 00:10:08,103 - INFO - API called: /select-files/
+2025-07-01 00:10:08,106 - INFO - Files received from frontend: ['steps.txt']
+2025-07-01 00:10:08,106 - INFO - Processing selected files...
+2025-07-01 00:10:08,106 - INFO - Folder path resolved: .
+2025-07-01 00:10:08,106 - INFO - Files extracted: ['steps.txt']
+2025-07-01 00:20:54,314 - INFO - coming from main.py - API called : /select-files/
+2025-07-01 00:20:54,314 - INFO - coming from main.py - API called : Files received from frontend: ['open_cmd.bat', 'open_cmd.txt', 'open_ps.bat', 'open_ps.txt']
+2025-07-01 00:20:54,314 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 00:20:54,314 - INFO - Files selected in webpage...
+2025-07-01 00:20:54,314 - INFO - coming from path_files_selector.py : Folder path resolved: .
+2025-07-01 00:20:54,314 - INFO - coming from path_files_selector.py : Files extracted: ['open_cmd.bat', 'open_cmd.txt', 'open_ps.bat', 'open_ps.txt']
+2025-07-01 00:31:19,038 - INFO - # ================================================== #
+2025-07-01 00:31:19,039 - INFO - coming from main.py - API called : /select-files/
+2025-07-01 00:31:19,039 - INFO - coming from main.py - API called : Files received from frontend: ['open_cmd.bat', 'steps.txt']
+2025-07-01 00:31:19,039 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 00:31:19,039 - INFO - Files selected in webpage...
+2025-07-01 00:31:19,039 - INFO - coming from path_files_selector.py : Folder path resolved: .
+2025-07-01 00:31:19,039 - INFO - coming from path_files_selector.py : Files extracted: ['open_cmd.bat', 'steps.txt']
+2025-07-01 00:33:15,296 - INFO - # ================================================== #
+2025-07-01 00:33:15,297 - INFO - coming from main.py - API called : /select-files/
+2025-07-01 00:33:15,298 - INFO - coming from main.py - API called : Files received from frontend: ['path_files_selector.py', 'steps.txt']
+2025-07-01 00:33:15,298 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 00:33:15,298 - INFO - Files selected in webpage...
+2025-07-01 00:33:15,298 - INFO - coming from path_files_selector.py : Folder path resolved: .
+2025-07-01 00:33:15,298 - INFO - coming from path_files_selector.py : Files extracted: ['path_files_selector.py', 'steps.txt']
+2025-07-01 00:34:16,700 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 00:34:16,700 - INFO - coming from main.py - API called : /select-files/
+2025-07-01 00:34:16,700 - INFO - coming from main.py - API called : Files received from frontend: ['open_ps.bat', 'open_ps.txt', 'steps.txt']
+2025-07-01 00:34:16,700 - INFO - Files selected in webpage...
+2025-07-01 00:34:16,700 - INFO - coming from path_files_selector.py : Folder path resolved: .
+2025-07-01 00:34:16,700 - INFO - coming from path_files_selector.py : Files extracted: ['open_ps.bat', 'open_ps.txt', 'steps.txt']
+2025-07-01 00:36:07,052 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 00:36:07,053 - INFO - coming from main.py - API called : /select-files/
+2025-07-01 00:36:07,053 - INFO - coming from main.py - API called : Files received from frontend: ['open_cmd.bat', 'path_files_selector.py', 'steps.txt']
+2025-07-01 00:36:07,053 - INFO - Files selected in webpage...
+2025-07-01 00:36:07,053 - INFO - coming from path_files_selector.py : Folder path resolved: .
+2025-07-01 00:36:07,053 - INFO - coming from path_files_selector.py : Files extracted: ['open_cmd.bat', 'path_files_selector.py', 'steps.txt']
+2025-07-01 00:37:19,813 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 00:37:19,813 - INFO - coming from main.py - API called : /select-files/
+2025-07-01 00:37:19,813 - INFO - coming from main.py - API called : Files received from frontend: ['steps.txt']
+2025-07-01 00:37:19,813 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 00:37:19,814 - INFO - coming from path_files_selector.py : Folder path resolved: .
+2025-07-01 00:37:19,814 - INFO - coming from path_files_selector.py : Files extracted: ['steps.txt']
+2025-07-01 00:39:48,613 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 00:39:48,613 - INFO - coming from main.py - API called : /select-files/
+2025-07-01 00:39:48,614 - INFO - coming from main.py - API called : Files received from frontend: ['open_cmd.bat', 'open_cmd.txt', 'open_ps.bat', 'open_ps.txt']
+2025-07-01 00:39:48,614 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 00:39:48,614 - INFO - coming from path_files_selector.py : Folder path resolved: .
+2025-07-01 00:39:48,614 - INFO - coming from path_files_selector.py : Files extracted: ['open_cmd.bat', 'open_cmd.txt', 'open_ps.bat', 'open_ps.txt']
+2025-07-01 00:40:40,909 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 00:40:40,909 - INFO - coming from main.py - API called : /select-files/
+2025-07-01 00:40:40,909 - INFO - coming from main.py - API called : Files received from frontend: ['open_cmd.bat', 'open_cmd.txt', 'open_ps.bat', 'open_ps.txt']
+2025-07-01 00:40:40,909 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 00:40:40,910 - INFO - coming from path_files_selector.py : Folder path resolved: . : webpage will not give the absolute path of the files for security reasons.
+2025-07-01 00:40:40,910 - INFO - coming from path_files_selector.py : Files extracted: ['open_cmd.bat', 'open_cmd.txt', 'open_ps.bat', 'open_ps.txt']
+2025-07-01 02:59:13,224 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 02:59:13,226 - INFO - coming from main.py - API called : /select-files/
+2025-07-01 02:59:13,227 - INFO - coming from main.py - API called : Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm']
+2025-07-01 02:59:13,228 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 02:59:13,230 - INFO - coming from path_files_selector.py : Folder path resolved: . : webpage will not give the absolute path of the files for security reasons.
+2025-07-01 02:59:13,230 - INFO - coming from path_files_selector.py : Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm']
+2025-07-01 03:39:40,834 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 03:39:40,835 - INFO - coming from main.py - API called : /select-files/
+2025-07-01 03:39:40,836 - INFO - coming from main.py - API called : Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm']
+2025-07-01 03:39:40,836 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 03:39:40,836 - INFO - coming from path_files_selector.py : Folder path resolved: .
+2025-07-01 03:39:40,837 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 03:39:40,837 - INFO - coming from path_files_selector.py : Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm']
+2025-07-01 03:51:30,369 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 03:51:30,370 - INFO - API called: /select-files/
+2025-07-01 03:51:30,371 - INFO - Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm']
+2025-07-01 03:51:30,372 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 03:51:30,372 - INFO - coming from path_files_selector.py : Folder path resolved: .
+2025-07-01 03:51:30,372 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 03:51:30,372 - INFO - coming from path_files_selector.py : Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm']
+2025-07-01 04:01:34,390 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 04:01:34,391 - INFO - API called: /select-files/
+2025-07-01 04:01:34,392 - INFO - Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm']
+2025-07-01 04:01:34,392 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 04:01:34,392 - INFO - coming from path_files_selector.py : Folder path resolved: .
+2025-07-01 04:01:34,392 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 04:01:34,392 - INFO - coming from path_files_selector.py : Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm']
+2025-07-01 04:09:02,034 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 04:09:02,035 - INFO - API called: /select-files/
+2025-07-01 04:09:02,036 - INFO - Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm']
+2025-07-01 04:09:02,036 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 04:09:02,037 - INFO - coming from path_files_selector.py : Folder path resolved: .
+2025-07-01 04:09:02,037 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 04:09:02,037 - INFO - coming from path_files_selector.py : Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm']
+2025-07-01 04:11:43,006 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 04:11:43,007 - INFO - API called: /select-files/
+2025-07-01 04:11:43,008 - INFO - Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm']
+2025-07-01 04:11:43,008 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 04:11:43,008 - INFO - coming from path_files_selector.py : Folder path resolved: .
+2025-07-01 04:11:43,009 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 04:11:43,009 - INFO - coming from path_files_selector.py : Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm']
+2025-07-01 04:20:38,397 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 04:20:38,401 - INFO - API called: /select-files/
+2025-07-01 04:20:38,403 - INFO - Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm']
+2025-07-01 04:20:38,404 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 04:20:38,405 - INFO - coming from path_files_selector.py : Folder path resolved: .
+2025-07-01 04:20:38,405 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 04:20:38,405 - INFO - coming from path_files_selector.py : Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm']
+2025-07-01 04:30:56,057 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 04:30:56,060 - INFO - API called: /select-files/
+2025-07-01 04:30:56,063 - INFO - Files received from frontend: ['sample1.pdf', 'sample2.pdf']
+2025-07-01 04:30:56,063 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 04:30:56,065 - INFO - coming from path_files_selector.py : Folder path resolved: .
+2025-07-01 04:30:56,065 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 04:30:56,065 - INFO - coming from path_files_selector.py : Files extracted: ['sample1.pdf', 'sample2.pdf']
+2025-07-01 04:33:49,641 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 04:33:49,644 - INFO - API called: /select-files/
+2025-07-01 04:33:49,646 - INFO - Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 04:33:49,647 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 04:33:49,650 - INFO - coming from path_files_selector.py : Folder path resolved: .
+2025-07-01 04:33:49,650 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 04:33:49,651 - INFO - coming from path_files_selector.py : Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 09:37:54,958 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 09:37:54,965 - INFO - API called: /select-files/
+2025-07-01 09:37:54,971 - INFO - Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 09:37:54,971 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 09:37:54,974 - INFO - coming from path_files_selector.py : Folder path resolved: .
+2025-07-01 09:37:54,974 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 09:37:54,975 - INFO - coming from path_files_selector.py : Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 10:02:39,630 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 10:02:39,632 - INFO - coming from main.py : API called: /select-files/
+2025-07-01 10:02:39,635 - INFO - coming from main.py : Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 10:02:39,636 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 10:02:39,637 - INFO - coming from path_files_selector.py : Folder path resolved: .
+2025-07-01 10:02:39,638 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 10:02:39,639 - INFO - coming from path_files_selector.py : Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 10:02:39,630 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 10:02:39,632 - INFO - coming from main.py : API called: /select-files/
+2025-07-01 10:02:39,635 - INFO - coming from main.py : Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 10:02:39,636 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 10:02:39,637 - INFO - coming from path_files_selector.py : Folder path resolved: .
+2025-07-01 10:02:39,638 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 10:02:39,639 - INFO - coming from path_files_selector.py : Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 10:15:35,708 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 10:15:35,709 - INFO - coming from main.py : API called: /select-files/
+2025-07-01 10:15:35,709 - INFO - coming from main.py : Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 10:15:35,709 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 10:15:35,709 - INFO - coming from path_files_selector.py : Folder path resolved: .
+2025-07-01 10:15:35,709 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 10:15:35,709 - INFO - coming from path_files_selector.py : Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 10:24:37,491 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 10:24:37,492 - INFO - coming from main.py : API called: /select-files/
+2025-07-01 10:24:37,492 - INFO - coming from main.py : Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 10:24:37,492 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 10:24:37,493 - INFO - coming from path_files_selector.py : Folder path resolved: .
+2025-07-01 10:24:37,493 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 10:24:37,493 - INFO - coming from path_files_selector.py : Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 10:33:52,906 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 10:33:52,909 - INFO - coming from main.py : API called: /select-files/
+2025-07-01 10:33:52,911 - INFO - coming from main.py : Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 10:33:52,912 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 10:33:52,913 - INFO - coming from path_files_selector.py : Folder path resolved: .
+2025-07-01 10:33:52,914 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 10:33:52,914 - INFO - coming from path_files_selector.py : Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 10:35:19,582 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 10:35:19,583 - INFO - coming from main.py : API called: /select-files/
+2025-07-01 10:35:19,583 - INFO - coming from main.py : Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 10:35:19,583 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 10:35:19,584 - INFO - coming from path_files_selector.py : [CONFIRM] Folder path resolved: .
+2025-07-01 10:35:19,584 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 10:35:19,585 - INFO - coming from path_files_selector.py : [CONFIRM] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 11:09:17,992 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 11:09:17,993 - INFO - coming from main.py : API called: /select-files/
+2025-07-01 11:09:17,994 - INFO - coming from main.py : Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 11:09:17,994 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 11:09:17,995 - INFO - coming from path_files_selector.py : [CONFIRM] Folder path resolved: .
+2025-07-01 11:09:17,995 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 11:09:17,995 - INFO - coming from path_files_selector.py : [CONFIRM] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 11:14:10,811 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 11:14:10,813 - INFO - coming from main.py : API called: /select-files/
+2025-07-01 11:14:10,815 - INFO - coming from main.py : Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 11:14:10,816 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 11:14:10,817 - INFO - coming from path_files_selector.py : [CONFIRM] Folder path resolved: .
+2025-07-01 11:14:10,817 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 11:14:10,818 - INFO - coming from path_files_selector.py : [CONFIRM] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 11:16:01,253 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 11:16:01,253 - INFO - coming from main.py : API called: /select-files/
+2025-07-01 11:16:01,253 - INFO - coming from main.py : Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 11:16:01,253 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 11:16:01,254 - INFO - coming from path_files_selector.py : [CONFIRM] Folder path resolved: .
+2025-07-01 11:16:01,254 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 11:16:01,254 - INFO - coming from path_files_selector.py : [CONFIRM] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 11:25:48,764 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 11:25:48,765 - INFO - coming from main.py : API called: /select-files/
+2025-07-01 11:25:48,765 - INFO - coming from main.py : Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 11:25:48,765 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 11:25:48,766 - INFO - coming from path_files_selector.py : [CONFIRM] Folder path resolved: .
+2025-07-01 11:25:48,766 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 11:25:48,766 - INFO - coming from path_files_selector.py : [CONFIRM] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 11:35:11,560 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 11:35:11,560 - INFO - coming from main.py : API called: /select-files/
+2025-07-01 11:35:11,561 - INFO - coming from main.py : Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 11:35:11,561 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 11:35:11,562 - INFO - coming from path_files_selector.py : [CONFIRM] Folder path resolved: .
+2025-07-01 11:35:11,562 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 11:35:11,562 - INFO - coming from path_files_selector.py : [CONFIRM] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 11:43:54,842 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 11:43:54,843 - INFO - coming from main.py : API called: /select-files/
+2025-07-01 11:43:54,844 - INFO - coming from main.py : Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 11:43:54,844 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 11:43:54,846 - INFO - coming from path_files_selector.py : [CONFIRM] Folder path resolved: .
+2025-07-01 11:43:54,847 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 11:43:54,847 - INFO - coming from path_files_selector.py : [CONFIRM] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 17:50:59,253 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 17:50:59,253 - INFO - coming from main.py : API called: /select-files/
+2025-07-01 17:50:59,254 - INFO - coming from main.py : Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 17:50:59,254 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 17:50:59,255 - INFO - coming from path_files_selector.py : [CONFIRM] Folder path resolved: .
+2025-07-01 17:50:59,255 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 17:50:59,255 - INFO - coming from path_files_selector.py : [CONFIRM] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 20:16:40,085 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 20:16:40,095 - INFO - coming from main.py : API called: /select-files/
+2025-07-01 20:16:40,100 - INFO - coming from main.py : Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 20:16:40,101 - INFO - coming from path_files_selector.py : Files selected in webpage...
+2025-07-01 20:16:40,112 - INFO - coming from path_files_selector.py : [CONFIRM] Folder path resolved: .
+2025-07-01 20:16:40,112 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 20:16:40,112 - INFO - coming from path_files_selector.py : [CONFIRM] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 20:33:07,034 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 20:33:07,037 - INFO - coming from main.py : API called: /select-files/
+2025-07-01 20:33:07,038 - INFO - coming from main.py : Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 20:33:07,038 - INFO - coming from path_files_selector.py : main.py is sending the file names into this function.
+2025-07-01 20:33:07,040 - INFO - coming from path_files_selector.py : [CONFIRM] Folder path resolved: .
+2025-07-01 20:33:07,040 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 20:33:07,040 - INFO - coming from path_files_selector.py : [CONFIRM] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 20:37:11,594 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 20:37:11,595 - INFO - coming from main.py : API called: /select-files/
+2025-07-01 20:37:11,597 - INFO - coming from main.py : Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 20:37:11,597 - INFO - coming from path_files_selector.py : main.py is sending the file names into this function.
+2025-07-01 20:37:11,598 - INFO - coming from path_files_selector.py : [CONFIRM] Folder path resolved: .
+2025-07-01 20:37:11,598 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 20:37:11,598 - INFO - coming from path_files_selector.py : [CONFIRM] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 20:37:11,599 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-01 20:37:11,599 - INFO - [DATA PROVIDER] Folder Path: .
+2025-07-01 20:37:11,599 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 20:45:54,463 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 20:45:54,463 - INFO - [MAIN] API called: /select-files/
+2025-07-01 20:45:54,464 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 20:45:54,464 - INFO - coming from path_files_selector.py : main.py is sending the file names into this function.
+2025-07-01 20:45:54,465 - INFO - coming from path_files_selector.py : [CONFIRM] Folder path resolved: .
+2025-07-01 20:45:54,466 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 20:45:54,466 - INFO - coming from path_files_selector.py : [CONFIRM] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 20:45:54,466 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-01 20:45:54,466 - INFO - [DATA PROVIDER] Folder Path: .
+2025-07-01 20:45:54,467 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 20:47:56,466 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 20:47:56,467 - INFO - [MAIN] API called: /select-files/
+2025-07-01 20:47:56,467 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 20:47:56,467 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-01 20:47:56,470 - INFO - [PATH FILES SELECTOR] Folder path resolved: .
+2025-07-01 20:47:56,470 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 20:47:56,470 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 20:47:56,470 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-01 20:47:56,471 - INFO - [DATA PROVIDER] Folder Path: .
+2025-07-01 20:47:56,471 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:00:39,081 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 21:00:39,082 - INFO - [MAIN] API called: /select-files/
+2025-07-01 21:00:39,083 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:00:39,084 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-01 21:00:39,085 - INFO - [PATH FILES SELECTOR] Folder path resolved: .
+2025-07-01 21:00:39,085 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 21:00:39,085 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:00:39,085 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-01 21:00:39,085 - INFO - [DATA PROVIDER] Folder Path: .
+2025-07-01 21:00:39,086 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:00:39,086 - INFO - [DATA PROVIDER] Grouped files by extension:
+2025-07-01 21:00:40,027 - INFO -     Processing file: byslsks.pptx
+2025-07-01 21:00:40,035 - INFO -     Processing file: djksgsp.docx
+2025-07-01 21:00:40,043 - INFO -     Processing file: fajankss.xlsx
+2025-07-01 21:00:40,052 - INFO -     Processing file: glaahkal.ppt
+2025-07-01 21:00:40,059 - INFO -     Processing file: gSraawe.csv
+2025-07-01 21:00:40,065 - INFO -     Processing file: h_python-Slip.pdf
+2025-07-01 21:00:40,065 - INFO -     Processing file: sample1.pdf
+2025-07-01 21:00:40,065 - INFO -     Processing file: sample2.pdf
+2025-07-01 21:00:40,070 - INFO -     Processing file: Hi_Priya,.txt
+2025-07-01 21:00:40,080 - INFO -     Processing file: ikkaajs.xls
+2025-07-01 21:00:40,086 - INFO -     Processing file: llgaajajs.pptm
+2025-07-01 21:00:40,095 - INFO -     Processing file: oaopsp.doc
+2025-07-01 21:00:40,103 - INFO -     Processing file: qajshs.xlsm
+2025-07-01 21:15:54,791 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 21:15:54,792 - INFO - [MAIN] API called: /select-files/
+2025-07-01 21:15:54,793 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:15:54,794 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-01 21:15:54,796 - INFO - [PATH FILES SELECTOR] Folder path resolved: .
+2025-07-01 21:15:54,796 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 21:15:54,796 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:15:54,796 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-01 21:15:54,797 - INFO - [DATA PROVIDER] Folder Path: .
+2025-07-01 21:15:54,797 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:15:54,797 - INFO - [DATA PROVIDER] Grouped files by extension:
+2025-07-01 21:15:54,943 - INFO -     Processing file: byslsks.pptx
+2025-07-01 21:15:54,948 - INFO -     Processing file: djksgsp.docx
+2025-07-01 21:15:54,953 - INFO -     Processing file: fajankss.xlsx
+2025-07-01 21:15:54,961 - INFO -     Processing file: glaahkal.ppt
+2025-07-01 21:15:54,971 - INFO -     Processing file: gSraawe.csv
+2025-07-01 21:15:54,979 - INFO -     Processing file: h_python-Slip.pdf
+2025-07-01 21:15:54,979 - INFO -     Processing file: sample1.pdf
+2025-07-01 21:15:54,979 - INFO -     Processing file: sample2.pdf
+2025-07-01 21:15:54,987 - INFO -     Processing file: Hi_Priya,.txt
+2025-07-01 21:15:54,994 - INFO -     Processing file: ikkaajs.xls
+2025-07-01 21:15:55,002 - INFO -     Processing file: llgaajajs.pptm
+2025-07-01 21:15:55,009 - INFO -     Processing file: oaopsp.doc
+2025-07-01 21:15:55,016 - INFO -     Processing file: qajshs.xlsm
+2025-07-01 21:17:55,796 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 21:17:55,797 - INFO - [MAIN] API called: /select-files/
+2025-07-01 21:17:55,798 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:17:55,798 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-01 21:17:55,802 - INFO - [PATH FILES SELECTOR] Folder path resolved: .
+2025-07-01 21:17:55,802 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 21:17:55,802 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:17:55,802 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-01 21:17:55,803 - INFO - [DATA PROVIDER] Folder Path: .
+2025-07-01 21:17:55,803 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:17:55,803 - INFO - [DATA PROVIDER] Grouped files by extension:
+2025-07-01 21:17:56,014 - INFO - [DATA PROVIDER] Returning grouped file lists
+2025-07-01 20:47:56,466 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 20:47:56,467 - INFO - [MAIN] API called: /select-files/
+2025-07-01 20:47:56,467 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 20:47:56,467 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-01 20:47:56,470 - INFO - [PATH FILES SELECTOR] Folder path resolved: .
+2025-07-01 20:47:56,470 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 20:47:56,470 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 20:47:56,470 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-01 20:47:56,471 - INFO - [DATA PROVIDER] Folder Path: .
+2025-07-01 20:47:56,471 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:00:39,081 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 21:00:39,082 - INFO - [MAIN] API called: /select-files/
+2025-07-01 21:00:39,083 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:00:39,084 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-01 21:00:39,085 - INFO - [PATH FILES SELECTOR] Folder path resolved: .
+2025-07-01 21:00:39,085 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 21:00:39,085 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:00:39,085 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-01 21:00:39,085 - INFO - [DATA PROVIDER] Folder Path: .
+2025-07-01 21:00:39,086 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:00:39,086 - INFO - [DATA PROVIDER] Grouped files by extension:
+2025-07-01 21:00:40,027 - INFO -     Processing file: byslsks.pptx
+2025-07-01 21:00:40,035 - INFO -     Processing file: djksgsp.docx
+2025-07-01 21:00:40,043 - INFO -     Processing file: fajankss.xlsx
+2025-07-01 21:00:40,052 - INFO -     Processing file: glaahkal.ppt
+2025-07-01 21:00:40,059 - INFO -     Processing file: gSraawe.csv
+2025-07-01 21:00:40,065 - INFO -     Processing file: h_python-Slip.pdf
+2025-07-01 21:00:40,065 - INFO -     Processing file: sample1.pdf
+2025-07-01 21:00:40,065 - INFO -     Processing file: sample2.pdf
+2025-07-01 21:00:40,070 - INFO -     Processing file: Hi_Priya,.txt
+2025-07-01 21:00:40,080 - INFO -     Processing file: ikkaajs.xls
+2025-07-01 21:00:40,086 - INFO -     Processing file: llgaajajs.pptm
+2025-07-01 21:00:40,095 - INFO -     Processing file: oaopsp.doc
+2025-07-01 21:00:40,103 - INFO -     Processing file: qajshs.xlsm
+2025-07-01 21:15:54,791 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 21:15:54,792 - INFO - [MAIN] API called: /select-files/
+2025-07-01 21:15:54,793 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:15:54,794 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-01 21:15:54,796 - INFO - [PATH FILES SELECTOR] Folder path resolved: .
+2025-07-01 21:15:54,796 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 21:15:54,796 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:15:54,796 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-01 21:15:54,797 - INFO - [DATA PROVIDER] Folder Path: .
+2025-07-01 21:15:54,797 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:15:54,797 - INFO - [DATA PROVIDER] Grouped files by extension:
+2025-07-01 21:15:54,943 - INFO -     Processing file: byslsks.pptx
+2025-07-01 21:15:54,948 - INFO -     Processing file: djksgsp.docx
+2025-07-01 21:15:54,953 - INFO -     Processing file: fajankss.xlsx
+2025-07-01 21:15:54,961 - INFO -     Processing file: glaahkal.ppt
+2025-07-01 21:15:54,971 - INFO -     Processing file: gSraawe.csv
+2025-07-01 21:15:54,979 - INFO -     Processing file: h_python-Slip.pdf
+2025-07-01 21:15:54,979 - INFO -     Processing file: sample1.pdf
+2025-07-01 21:15:54,979 - INFO -     Processing file: sample2.pdf
+2025-07-01 21:15:54,987 - INFO -     Processing file: Hi_Priya,.txt
+2025-07-01 21:15:54,994 - INFO -     Processing file: ikkaajs.xls
+2025-07-01 21:15:55,002 - INFO -     Processing file: llgaajajs.pptm
+2025-07-01 21:15:55,009 - INFO -     Processing file: oaopsp.doc
+2025-07-01 21:15:55,016 - INFO -     Processing file: qajshs.xlsm
+2025-07-01 21:17:55,796 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 21:17:55,797 - INFO - [MAIN] API called: /select-files/
+2025-07-01 21:17:55,798 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:17:55,798 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-01 21:17:55,802 - INFO - [PATH FILES SELECTOR] Folder path resolved: .
+2025-07-01 21:17:55,802 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 21:17:55,802 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:17:55,802 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-01 21:17:55,803 - INFO - [DATA PROVIDER] Folder Path: .
+2025-07-01 21:17:55,803 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:17:55,803 - INFO - [DATA PROVIDER] Grouped files by extension:
+2025-07-01 21:17:56,014 - INFO - [DATA PROVIDER] Returning grouped file lists
+2025-07-01 21:28:07,016 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 21:28:07,016 - INFO - [MAIN] API called: /select-files/
+2025-07-01 21:28:07,017 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:28:07,017 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-01 21:28:07,018 - INFO - [PATH FILES SELECTOR] Folder path resolved: .
+2025-07-01 21:28:07,018 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 21:28:07,018 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:28:07,018 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-01 21:28:07,018 - INFO - [DATA PROVIDER] Folder Path: .
+2025-07-01 21:28:07,018 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:28:07,018 - INFO - [DATA PROVIDER] Final grouped list of lists: [['fajankss.xlsx', 'gSraawe.csv', 'ikkaajs.xls', 'qajshs.xlsm'], ['h_python-Slip.pdf', 'sample1.pdf', 'sample2.pdf'], ['byslsks.pptx', 'glaahkal.ppt', 'llgaajajs.pptm'], ['Hi_Priya,.txt'], ['djksgsp.docx', 'oaopsp.doc'], []]
+2025-07-01 21:34:48,790 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 21:34:48,790 - INFO -                                                              
+2025-07-01 21:34:48,790 - INFO - [MAIN] API called: /select-files/
+2025-07-01 21:34:48,790 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:34:48,790 - INFO -                                                              
+2025-07-01 21:34:48,790 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-01 21:34:48,791 - INFO - [PATH FILES SELECTOR] Folder path resolved: .
+2025-07-01 21:34:48,791 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 21:34:48,791 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:34:48,791 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-01 21:34:48,791 - INFO - [DATA PROVIDER] Folder Path: .
+2025-07-01 21:34:48,791 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:34:48,791 - INFO - [DATA PROVIDER] Final grouped list of lists: [['fajankss.xlsx', 'gSraawe.csv', 'ikkaajs.xls', 'qajshs.xlsm'], ['h_python-Slip.pdf', 'sample1.pdf', 'sample2.pdf'], ['byslsks.pptx', 'glaahkal.ppt', 'llgaajajs.pptm'], ['Hi_Priya,.txt'], ['djksgsp.docx', 'oaopsp.doc'], []]
+2025-07-01 21:37:48,260 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 21:37:48,260 - INFO -                                                              
+2025-07-01 21:37:48,260 - INFO - [MAIN] API called: /select-files/
+2025-07-01 21:37:48,261 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:37:48,261 - INFO -                                                              
+2025-07-01 21:37:48,261 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-01 21:37:48,262 - INFO - [PATH FILES SELECTOR] Folder path resolved: .
+2025-07-01 21:37:48,262 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 21:37:48,262 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:37:48,262 - INFO -                                                              
+2025-07-01 21:37:48,262 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-01 21:37:48,262 - INFO - [DATA PROVIDER] Folder Path: .
+2025-07-01 21:37:48,262 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:37:48,262 - INFO - [DATA PROVIDER] Final grouped list of lists: [['fajankss.xlsx', 'gSraawe.csv', 'ikkaajs.xls', 'qajshs.xlsm'], ['h_python-Slip.pdf', 'sample1.pdf', 'sample2.pdf'], ['byslsks.pptx', 'glaahkal.ppt', 'llgaajajs.pptm'], ['Hi_Priya,.txt'], ['djksgsp.docx', 'oaopsp.doc'], []]
+2025-07-01 21:42:10,547 - INFO -                                                              
+2025-07-01 21:42:10,548 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 21:42:10,548 - INFO -                                                              
+2025-07-01 21:42:10,548 - INFO - [MAIN] API called: /select-files/
+2025-07-01 21:42:10,549 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:42:10,549 - INFO -                                                              
+2025-07-01 21:42:10,549 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-01 21:42:10,549 - INFO - [PATH FILES SELECTOR] Folder path resolved: .
+2025-07-01 21:42:10,549 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 21:42:10,549 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:42:10,549 - INFO -                                                              
+2025-07-01 21:42:10,549 - INFO -                                                              
+2025-07-01 21:42:10,549 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-01 21:42:10,549 - INFO - [DATA PROVIDER] Folder Path: .
+2025-07-01 21:42:10,549 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:42:10,549 - INFO - [DATA PROVIDER] Final grouped list of lists: [['fajankss.xlsx', 'gSraawe.csv', 'ikkaajs.xls', 'qajshs.xlsm'], ['h_python-Slip.pdf', 'sample1.pdf', 'sample2.pdf'], ['byslsks.pptx', 'glaahkal.ppt', 'llgaajajs.pptm'], ['Hi_Priya,.txt'], ['djksgsp.docx', 'oaopsp.doc'], []]
+2025-07-01 21:43:30,555 - INFO -                                                              
+2025-07-01 21:43:30,556 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 21:43:30,556 - INFO -                                                              
+2025-07-01 21:43:30,556 - INFO - [MAIN] API called: /select-files/
+2025-07-01 21:43:30,556 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:43:30,556 - INFO -                                                              
+2025-07-01 21:43:30,556 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-01 21:43:30,557 - INFO - [PATH FILES SELECTOR] Folder path resolved: .
+2025-07-01 21:43:30,557 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 21:43:30,557 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:43:30,557 - INFO -                                                              
+2025-07-01 21:43:30,557 - INFO -                                                              
+2025-07-01 21:43:30,557 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-01 21:43:30,557 - INFO - [DATA PROVIDER] Folder Path: .
+2025-07-01 21:43:30,557 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:43:30,557 - INFO -                                                              
+2025-07-01 21:43:30,557 - INFO - [DATA PROVIDER] Final grouped list of lists: [['fajankss.xlsx', 'gSraawe.csv', 'ikkaajs.xls', 'qajshs.xlsm'], ['h_python-Slip.pdf', 'sample1.pdf', 'sample2.pdf'], ['byslsks.pptx', 'glaahkal.ppt', 'llgaajajs.pptm'], ['Hi_Priya,.txt'], ['djksgsp.docx', 'oaopsp.doc'], []]
+2025-07-01 21:45:13,192 - INFO -                                                              
+2025-07-01 21:45:13,193 - INFO - # ================= Started New Iteration ================= #
+2025-07-01 21:45:13,193 - INFO -                                                              
+2025-07-01 21:45:13,193 - INFO - [MAIN] API called: /select-files/
+2025-07-01 21:45:13,194 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:45:13,194 - INFO -                                                              
+2025-07-01 21:45:13,194 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-01 21:45:13,195 - INFO - [PATH FILES SELECTOR] Folder path resolved: .
+2025-07-01 21:45:13,195 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-01 21:45:13,195 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:45:13,195 - INFO -                                                              
+2025-07-01 21:45:13,195 - INFO -                                                              
+2025-07-01 21:45:13,195 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-01 21:45:13,195 - INFO - [DATA PROVIDER] Folder Path: .
+2025-07-01 21:45:13,195 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-01 21:45:13,195 - INFO -                                                              
+2025-07-01 21:45:13,195 - INFO - [DATA PROVIDER] Final grouped list of lists: [['fajankss.xlsx', 'gSraawe.csv', 'ikkaajs.xls', 'qajshs.xlsm'], ['h_python-Slip.pdf', 'sample1.pdf', 'sample2.pdf'], ['byslsks.pptx', 'glaahkal.ppt', 'llgaajajs.pptm'], ['Hi_Priya,.txt'], ['djksgsp.docx', 'oaopsp.doc'], []]
+

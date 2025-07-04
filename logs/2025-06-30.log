@@ -1,0 +1,9 @@
+2025-06-30 23:25:16,039 - INFO - Processing selected files...
+2025-06-30 23:25:16,040 - INFO - Folder path resolved: .
+2025-06-30 23:25:16,040 - INFO - Files extracted: ['open_cmd.txt', 'open_ps.bat', 'open_ps.txt']
+2025-06-30 23:25:16,041 - INFO - API called: /select-files/
+2025-06-30 23:25:16,041 - INFO - Files received from frontend: ['open_cmd.txt', 'open_ps.bat', 'open_ps.txt']
+2025-06-30 23:25:16,041 - ERROR - Error while parsing request
+2025-06-30 23:47:00,454 - INFO - Processing selected files...
+2025-06-30 23:47:00,455 - INFO - Folder path resolved: .
+2025-06-30 23:47:00,455 - INFO - Files extracted: ['path_files_selector.py', 'steps.txt']
