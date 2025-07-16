@@ -5,7 +5,7 @@ import os
 from logger_config import setup_logger
 logger = setup_logger("data_provider")
 
-def receive_files(folder_path: str, file_list: List[str]):
+def receive_files(folder_path: str,  ):
     logger.info("                                                             ")
     logger.info("[DATA PROVIDER] Data received in data_provider.py")
     logger.info(f"[DATA PROVIDER] Folder Path: {folder_path}")
@@ -42,3 +42,7 @@ def receive_files(folder_path: str, file_list: List[str]):
     ]
 
     logger.info(f"[DATA PROVIDER] Final grouped list of lists: {final_list_of_lists}")
+
+    # === Construct full file paths ===
+    full_paths = [os.path.join(folder_path, file) for file in file_list]
+    logger.info(f"[DATA PROVIDER] Full file paths: {full_paths}")

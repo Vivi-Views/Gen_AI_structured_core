@@ -1,0 +1,454 @@
+2025-07-10 11:35:21,545 - INFO -                                                              
+2025-07-10 11:35:21,546 - INFO - # ================= Started New Iteration ================= #
+2025-07-10 11:35:21,546 - INFO -                                                              
+2025-07-10 11:35:21,546 - INFO - [MAIN] API called: /select-files/
+2025-07-10 11:35:21,547 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 11:35:21,547 - INFO -                                                              
+2025-07-10 11:35:21,547 - INFO -                                                              
+2025-07-10 11:35:21,547 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-10 11:35:21,548 - INFO - [PATH FILES SELECTOR] Folder path resolved: .
+2025-07-10 11:35:21,548 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-10 11:35:21,548 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 11:35:21,548 - INFO -                                                              
+2025-07-10 11:35:21,548 - INFO -                                                              
+2025-07-10 11:35:21,548 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-10 11:35:21,548 - INFO - [DATA PROVIDER] Folder Path: .
+2025-07-10 11:35:21,548 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 11:35:21,548 - INFO -                                                              
+2025-07-10 11:35:21,548 - INFO - [DATA PROVIDER] Final grouped list of lists: [['fajankss.xlsx', 'gSraawe.csv', 'ikkaajs.xls', 'qajshs.xlsm'], ['h_python-Slip.pdf', 'sample1.pdf', 'sample2.pdf'], ['byslsks.pptx', 'glaahkal.ppt', 'llgaajajs.pptm'], ['Hi_Priya,.txt'], ['djksgsp.docx', 'oaopsp.doc'], []]
+2025-07-10 11:53:17,726 - INFO -                                                              
+2025-07-10 11:53:17,726 - INFO - # ================= Started New Iteration ================= #
+2025-07-10 11:53:17,726 - INFO -                                                              
+2025-07-10 11:53:17,726 - INFO - [MAIN] API called: /select-files/
+2025-07-10 11:53:17,726 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 11:53:17,726 - INFO -                                                              
+2025-07-10 11:56:27,346 - INFO - [MAIN] Resolved absolute paths: ['C:/Users\\vivek\\Desktop\\client_data_source\\byslsks.pptx', 'C:/Users\\vivek\\Desktop\\client_data_source\\djksgsp.docx', 'C:/Users\\vivek\\Desktop\\client_data_source\\fajankss.xlsx', 'C:/Users\\vivek\\Desktop\\client_data_source\\glaahkal.ppt', 'C:/Users\\vivek\\Desktop\\client_data_source\\gSraawe.csv', 'C:/Users\\vivek\\Desktop\\client_data_source\\h_python-Slip.pdf', 'C:/Users\\vivek\\Desktop\\client_data_source\\Hi_Priya,.txt', 'C:/Users\\vivek\\Desktop\\client_data_source\\ikkaajs.xls', 'C:/Users\\vivek\\Desktop\\client_data_source\\llgaajajs.pptm', 'C:/Users\\vivek\\Desktop\\client_data_source\\oaopsp.doc', 'C:/Users\\vivek\\Desktop\\client_data_source\\qajshs.xlsm', 'C:/Users\\vivek\\Desktop\\client_data_source\\sample1.pdf', 'C:/Users\\vivek\\Desktop\\client_data_source\\sample2.pdf']
+2025-07-10 11:56:27,346 - INFO -                                                              
+2025-07-10 11:56:27,347 - INFO -                                                              
+2025-07-10 11:56:27,347 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-10 11:56:27,348 - INFO - [PATH FILES SELECTOR] Folder path resolved: C:\Users\vivek\Desktop\client_data_source
+2025-07-10 11:56:27,348 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-10 11:56:27,348 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 11:56:27,348 - INFO -                                                              
+2025-07-10 11:56:27,348 - INFO -                                                              
+2025-07-10 11:56:27,348 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-10 11:56:27,348 - INFO - [DATA PROVIDER] Folder Path: C:\Users\vivek\Desktop\client_data_source
+2025-07-10 11:56:27,348 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 11:56:27,348 - INFO -                                                              
+2025-07-10 11:56:27,348 - INFO - [DATA PROVIDER] Final grouped list of lists: [['fajankss.xlsx', 'gSraawe.csv', 'ikkaajs.xls', 'qajshs.xlsm'], ['h_python-Slip.pdf', 'sample1.pdf', 'sample2.pdf'], ['byslsks.pptx', 'glaahkal.ppt', 'llgaajajs.pptm'], ['Hi_Priya,.txt'], ['djksgsp.docx', 'oaopsp.doc'], []]
+2025-07-10 12:04:00,535 - INFO -                                                              
+2025-07-10 12:04:00,535 - INFO - # ================= Started New Iteration ================= #
+2025-07-10 12:04:00,535 - INFO -                                                              
+2025-07-10 12:04:00,535 - INFO - [MAIN] API called: /select-files/
+2025-07-10 12:04:00,535 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 12:04:00,535 - INFO -                                                              
+2025-07-10 12:04:00,535 - INFO -                                                              
+2025-07-10 12:04:00,535 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-10 12:04:00,536 - INFO - [PATH FILES SELECTOR] Folder path resolved: .
+2025-07-10 12:04:00,536 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-10 12:04:00,536 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 12:04:00,536 - INFO -                                                              
+2025-07-10 12:04:00,536 - INFO -                                                              
+2025-07-10 12:04:00,536 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-10 12:04:00,536 - INFO - [DATA PROVIDER] Folder Path: .
+2025-07-10 12:04:00,536 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 12:04:00,536 - INFO -                                                              
+2025-07-10 12:04:00,536 - INFO - [DATA PROVIDER] Final grouped list of lists: [['fajankss.xlsx', 'gSraawe.csv', 'ikkaajs.xls', 'qajshs.xlsm'], ['h_python-Slip.pdf', 'sample1.pdf', 'sample2.pdf'], ['byslsks.pptx', 'glaahkal.ppt', 'llgaajajs.pptm'], ['Hi_Priya,.txt'], ['djksgsp.docx', 'oaopsp.doc'], []]
+2025-07-10 12:24:05,543 - INFO -                                                              
+2025-07-10 12:24:05,544 - INFO - # ================= Started New Iteration ================= #
+2025-07-10 12:24:05,544 - INFO -                                                              
+2025-07-10 12:24:05,544 - INFO - [MAIN] API called: /select-files/
+2025-07-10 12:24:05,544 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 12:24:05,544 - INFO -                                                              
+2025-07-10 12:24:05,544 - INFO -                                                              
+2025-07-10 12:24:05,544 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-10 12:24:05,544 - INFO - [PATH FILES SELECTOR] Folder path resolved: .
+2025-07-10 12:24:05,544 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-10 12:24:05,544 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 12:24:05,544 - INFO -                                                              
+2025-07-10 12:24:05,544 - INFO -                                                              
+2025-07-10 12:24:05,544 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-10 12:24:05,544 - INFO - [DATA PROVIDER] Folder Path: .
+2025-07-10 12:24:05,544 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 12:24:05,544 - INFO -                                                              
+2025-07-10 12:24:05,544 - INFO - [DATA PROVIDER] Final grouped list of lists: [['fajankss.xlsx', 'gSraawe.csv', 'ikkaajs.xls', 'qajshs.xlsm'], ['h_python-Slip.pdf', 'sample1.pdf', 'sample2.pdf'], ['byslsks.pptx', 'glaahkal.ppt', 'llgaajajs.pptm'], ['Hi_Priya,.txt'], ['djksgsp.docx', 'oaopsp.doc'], []]
+2025-07-10 12:24:24,423 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:24:56,506 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:25:29,717 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:26:02,484 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:26:34,742 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:27:09,229 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:27:41,873 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:28:14,359 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:28:46,686 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:29:19,300 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:29:52,443 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:30:25,212 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:30:38,518 - INFO -                                                              
+2025-07-10 12:30:38,518 - INFO - # ================= Started New Iteration ================= #
+2025-07-10 12:30:38,518 - INFO -                                                              
+2025-07-10 12:30:38,518 - INFO - [MAIN] API called: /select-files/
+2025-07-10 12:30:38,518 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 12:30:38,518 - INFO -                                                              
+2025-07-10 12:30:38,518 - INFO - [MAIN] Resolved absolute paths: ['C:/Users\\vivek\\Desktop\\client_data_source\\byslsks.pptx', 'C:/Users\\vivek\\Desktop\\client_data_source\\djksgsp.docx', 'C:/Users\\vivek\\Desktop\\client_data_source\\fajankss.xlsx', 'C:/Users\\vivek\\Desktop\\client_data_source\\glaahkal.ppt', 'C:/Users\\vivek\\Desktop\\client_data_source\\gSraawe.csv', 'C:/Users\\vivek\\Desktop\\client_data_source\\h_python-Slip.pdf', 'C:/Users\\vivek\\Desktop\\client_data_source\\Hi_Priya,.txt', 'C:/Users\\vivek\\Desktop\\client_data_source\\ikkaajs.xls', 'C:/Users\\vivek\\Desktop\\client_data_source\\llgaajajs.pptm', 'C:/Users\\vivek\\Desktop\\client_data_source\\oaopsp.doc', 'C:/Users\\vivek\\Desktop\\client_data_source\\qajshs.xlsm', 'C:/Users\\vivek\\Desktop\\client_data_source\\sample1.pdf', 'C:/Users\\vivek\\Desktop\\client_data_source\\sample2.pdf']
+2025-07-10 12:30:38,518 - INFO -                                                              
+2025-07-10 12:30:38,518 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-10 12:30:38,519 - INFO - [PATH FILES SELECTOR] Folder path resolved: C:\Users\vivek\Desktop\client_data_source
+2025-07-10 12:30:38,519 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-10 12:30:38,519 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 12:30:38,519 - INFO -                                                              
+2025-07-10 12:30:38,519 - INFO -                                                              
+2025-07-10 12:30:38,519 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-10 12:30:38,519 - INFO - [DATA PROVIDER] Folder Path: C:\Users\vivek\Desktop\client_data_source
+2025-07-10 12:30:38,519 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 12:30:38,519 - INFO -                                                              
+2025-07-10 12:30:38,519 - INFO - [DATA PROVIDER] Final grouped list of lists: [['fajankss.xlsx', 'gSraawe.csv', 'ikkaajs.xls', 'qajshs.xlsm'], ['h_python-Slip.pdf', 'sample1.pdf', 'sample2.pdf'], ['byslsks.pptx', 'glaahkal.ppt', 'llgaajajs.pptm'], ['Hi_Priya,.txt'], ['djksgsp.docx', 'oaopsp.doc'], []]
+2025-07-10 12:30:57,172 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:31:31,214 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:32:05,570 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:32:39,702 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:33:12,373 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:33:45,202 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:34:17,091 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:34:49,427 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:35:21,997 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:35:54,169 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:36:26,482 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:36:59,796 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:37:32,137 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:38:04,286 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:38:36,336 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:39:14,821 - INFO -                                                              
+2025-07-10 12:39:14,822 - INFO - # ================= Started New Iteration ================= #
+2025-07-10 12:39:14,822 - INFO -                                                              
+2025-07-10 12:39:14,822 - INFO - [MAIN] API called: /select-files/
+2025-07-10 12:39:14,822 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 12:39:14,822 - INFO -                                                              
+2025-07-10 12:39:14,822 - INFO - [MAIN] Resolved absolute paths: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 12:39:14,825 - INFO - [PATH RESOLVER] Absolute folder path resolved: C:\Users\vivek\Desktop\Xiphold
+2025-07-10 12:39:14,825 - INFO - [MAIN] Folder resolution result: {'absolute_path': 'C:\\Users\\vivek\\Desktop\\Xiphold'}
+2025-07-10 12:39:14,825 - INFO -                                                              
+2025-07-10 12:39:14,825 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-10 12:39:14,825 - INFO - [DATA PROVIDER] Folder Path: 
+2025-07-10 12:39:14,825 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 12:39:14,825 - INFO -                                                              
+2025-07-10 12:39:14,825 - INFO - [DATA PROVIDER] Final grouped list of lists: [['fajankss.xlsx', 'gSraawe.csv', 'ikkaajs.xls', 'qajshs.xlsm'], ['h_python-Slip.pdf', 'sample1.pdf', 'sample2.pdf'], ['byslsks.pptx', 'glaahkal.ppt', 'llgaajajs.pptm'], ['Hi_Priya,.txt'], ['djksgsp.docx', 'oaopsp.doc'], []]
+2025-07-10 12:39:17,909 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:39:50,673 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:40:24,876 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:40:58,443 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:41:33,106 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:42:07,090 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:42:41,673 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:43:14,747 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:43:48,993 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:44:21,151 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:44:54,476 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:45:28,067 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:46:01,952 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:46:36,157 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:47:10,132 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:47:43,630 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:48:17,834 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:48:50,211 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:49:23,646 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:49:57,435 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:50:30,710 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:51:04,303 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:51:38,553 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:52:11,101 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:52:44,557 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:53:16,878 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:53:50,219 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:54:22,852 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:54:56,067 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:55:28,267 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:56:00,455 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:56:32,449 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:57:04,978 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:57:37,740 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:58:10,102 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:58:42,162 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:59:15,534 - INFO - [BACKGROUND] File map updated.
+2025-07-10 12:59:47,558 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:00:20,043 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:00:54,621 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:01:27,683 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:02:01,659 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:02:35,792 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:03:09,884 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:03:43,390 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:04:17,203 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:04:50,457 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:05:23,367 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:05:40,367 - INFO -                                                              
+2025-07-10 13:05:40,367 - INFO - # ================= Started New Iteration ================= #
+2025-07-10 13:05:40,367 - INFO -                                                              
+2025-07-10 13:05:40,367 - INFO - [MAIN] API called: /select-files/
+2025-07-10 13:05:40,367 - INFO - [MAIN] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 13:05:40,367 - INFO -                                                              
+2025-07-10 13:05:40,368 - INFO - [MAIN] Resolved absolute paths: ['C:/Users\\vivek\\Desktop\\client_data_source\\byslsks.pptx', 'C:/Users\\vivek\\Desktop\\client_data_source\\djksgsp.docx', 'C:/Users\\vivek\\Desktop\\client_data_source\\fajankss.xlsx', 'C:/Users\\vivek\\Desktop\\client_data_source\\glaahkal.ppt', 'C:/Users\\vivek\\Desktop\\client_data_source\\gSraawe.csv', 'C:/Users\\vivek\\Desktop\\client_data_source\\h_python-Slip.pdf', 'C:/Users\\vivek\\Desktop\\client_data_source\\Hi_Priya,.txt', 'C:/Users\\vivek\\Desktop\\client_data_source\\ikkaajs.xls', 'C:/Users\\vivek\\Desktop\\client_data_source\\llgaajajs.pptm', 'C:/Users\\vivek\\Desktop\\client_data_source\\oaopsp.doc', 'C:/Users\\vivek\\Desktop\\client_data_source\\qajshs.xlsm', 'C:/Users\\vivek\\Desktop\\client_data_source\\sample1.pdf', 'C:/Users\\vivek\\Desktop\\client_data_source\\sample2.pdf']
+2025-07-10 13:05:40,368 - INFO - [PATH RESOLVER] Absolute folder path resolved: C:\Users\vivek\Desktop\client_data_source
+2025-07-10 13:05:40,368 - INFO - [MAIN] Folder resolution result: {'absolute_path': 'C:\\Users\\vivek\\Desktop\\client_data_source'}
+2025-07-10 13:05:40,368 - INFO -                                                              
+2025-07-10 13:05:40,368 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-10 13:05:40,368 - INFO - [DATA PROVIDER] Folder Path: C:/Users\vivek\Desktop\client_data_source
+2025-07-10 13:05:40,368 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 13:05:40,368 - INFO -                                                              
+2025-07-10 13:05:40,368 - INFO - [DATA PROVIDER] Final grouped list of lists: [['fajankss.xlsx', 'gSraawe.csv', 'ikkaajs.xls', 'qajshs.xlsm'], ['h_python-Slip.pdf', 'sample1.pdf', 'sample2.pdf'], ['byslsks.pptx', 'glaahkal.ppt', 'llgaajajs.pptm'], ['Hi_Priya,.txt'], ['djksgsp.docx', 'oaopsp.doc'], []]
+2025-07-10 13:05:58,046 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:06:32,581 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:07:06,816 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:07:40,948 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:08:13,909 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:08:48,842 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:09:23,401 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:09:57,446 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:10:31,800 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:11:06,029 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:11:40,505 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:12:13,526 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:12:48,441 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:13:22,967 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:13:56,930 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:14:31,230 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:15:04,559 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:15:38,491 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:16:10,995 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:16:43,759 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:17:16,132 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:17:48,450 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:18:20,726 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:18:53,225 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:19:25,470 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:19:34,263 - INFO -                                                              
+2025-07-10 13:19:34,263 - INFO - # ================= Started New Iteration ================= #
+2025-07-10 13:19:34,263 - INFO -                                                              
+2025-07-10 13:19:34,263 - INFO - [MAIN] API called: /select-files/
+2025-07-10 13:19:34,263 - INFO - [MAIN > select-files] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 13:19:34,263 - INFO -                                                              
+2025-07-10 13:19:34,263 - INFO - [MAIN] Resolved absolute paths: ['C:/Users\\vivek\\Desktop\\client_data_source\\byslsks.pptx', 'C:/Users\\vivek\\Desktop\\client_data_source\\djksgsp.docx', 'C:/Users\\vivek\\Desktop\\client_data_source\\fajankss.xlsx', 'C:/Users\\vivek\\Desktop\\client_data_source\\glaahkal.ppt', 'C:/Users\\vivek\\Desktop\\client_data_source\\gSraawe.csv', 'C:/Users\\vivek\\Desktop\\client_data_source\\h_python-Slip.pdf', 'C:/Users\\vivek\\Desktop\\client_data_source\\Hi_Priya,.txt', 'C:/Users\\vivek\\Desktop\\client_data_source\\ikkaajs.xls', 'C:/Users\\vivek\\Desktop\\client_data_source\\llgaajajs.pptm', 'C:/Users\\vivek\\Desktop\\client_data_source\\oaopsp.doc', 'C:/Users\\vivek\\Desktop\\client_data_source\\qajshs.xlsm', 'C:/Users\\vivek\\Desktop\\client_data_source\\sample1.pdf', 'C:/Users\\vivek\\Desktop\\client_data_source\\sample2.pdf']
+2025-07-10 13:19:34,263 - INFO -                                                              
+2025-07-10 13:19:34,263 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-10 13:19:34,263 - INFO - [PATH FILES SELECTOR] Folder path resolved: C:\Users\vivek\Desktop\client_data_source
+2025-07-10 13:19:34,263 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-10 13:19:34,263 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 13:19:34,263 - INFO -                                                              
+2025-07-10 13:19:34,263 - INFO - [MAIN] Resolved absolute paths: ['C:/Users\\vivek\\Desktop\\client_data_source\\byslsks.pptx', 'C:/Users\\vivek\\Desktop\\client_data_source\\djksgsp.docx', 'C:/Users\\vivek\\Desktop\\client_data_source\\fajankss.xlsx', 'C:/Users\\vivek\\Desktop\\client_data_source\\glaahkal.ppt', 'C:/Users\\vivek\\Desktop\\client_data_source\\gSraawe.csv', 'C:/Users\\vivek\\Desktop\\client_data_source\\h_python-Slip.pdf', 'C:/Users\\vivek\\Desktop\\client_data_source\\Hi_Priya,.txt', 'C:/Users\\vivek\\Desktop\\client_data_source\\ikkaajs.xls', 'C:/Users\\vivek\\Desktop\\client_data_source\\llgaajajs.pptm', 'C:/Users\\vivek\\Desktop\\client_data_source\\oaopsp.doc', 'C:/Users\\vivek\\Desktop\\client_data_source\\qajshs.xlsm', 'C:/Users\\vivek\\Desktop\\client_data_source\\sample1.pdf', 'C:/Users\\vivek\\Desktop\\client_data_source\\sample2.pdf']
+2025-07-10 13:19:34,264 - INFO - [PATH RESOLVER] Absolute folder path resolved: C:\Users\vivek\Desktop\client_data_source
+2025-07-10 13:19:34,264 - INFO - [MAIN] Folder resolution result: {'absolute_path': 'C:\\Users\\vivek\\Desktop\\client_data_source'}
+2025-07-10 13:19:34,264 - INFO -                                                              
+2025-07-10 13:19:34,264 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-10 13:19:34,264 - INFO - [DATA PROVIDER] Folder Path: C:/Users\vivek\Desktop\client_data_source
+2025-07-10 13:19:34,264 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 13:19:34,264 - INFO -                                                              
+2025-07-10 13:19:34,264 - INFO - [DATA PROVIDER] Final grouped list of lists: [['fajankss.xlsx', 'gSraawe.csv', 'ikkaajs.xls', 'qajshs.xlsm'], ['h_python-Slip.pdf', 'sample1.pdf', 'sample2.pdf'], ['byslsks.pptx', 'glaahkal.ppt', 'llgaajajs.pptm'], ['Hi_Priya,.txt'], ['djksgsp.docx', 'oaopsp.doc'], []]
+2025-07-10 13:19:52,889 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:20:26,818 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:20:49,087 - INFO -                                                              
+2025-07-10 13:20:49,087 - INFO - # ================= Started New Iteration ================= #
+2025-07-10 13:20:49,087 - INFO -                                                              
+2025-07-10 13:20:49,087 - INFO - [MAIN] API called: /select-files/
+2025-07-10 13:20:49,087 - INFO - [MAIN > select-files] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 13:20:49,087 - INFO -                                                              
+2025-07-10 13:20:49,087 - INFO - [MAIN] Resolved absolute paths: ['C:/Users\\vivek\\Desktop\\client_data_source\\byslsks.pptx', 'C:/Users\\vivek\\Desktop\\client_data_source\\djksgsp.docx', 'C:/Users\\vivek\\Desktop\\client_data_source\\fajankss.xlsx', 'C:/Users\\vivek\\Desktop\\client_data_source\\glaahkal.ppt', 'C:/Users\\vivek\\Desktop\\client_data_source\\gSraawe.csv', 'C:/Users\\vivek\\Desktop\\client_data_source\\h_python-Slip.pdf', 'C:/Users\\vivek\\Desktop\\client_data_source\\Hi_Priya,.txt', 'C:/Users\\vivek\\Desktop\\client_data_source\\ikkaajs.xls', 'C:/Users\\vivek\\Desktop\\client_data_source\\llgaajajs.pptm', 'C:/Users\\vivek\\Desktop\\client_data_source\\oaopsp.doc', 'C:/Users\\vivek\\Desktop\\client_data_source\\qajshs.xlsm', 'C:/Users\\vivek\\Desktop\\client_data_source\\sample1.pdf', 'C:/Users\\vivek\\Desktop\\client_data_source\\sample2.pdf']
+2025-07-10 13:20:49,087 - INFO -                                                              
+2025-07-10 13:20:49,087 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-10 13:20:49,088 - INFO - [PATH FILES SELECTOR] Folder path resolved: C:\Users\vivek\Desktop\client_data_source
+2025-07-10 13:20:49,088 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-10 13:20:49,088 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 13:20:49,088 - INFO -                                                              
+2025-07-10 13:20:49,088 - INFO - [MAIN] Resolved absolute paths: ['C:/Users\\vivek\\Desktop\\client_data_source\\byslsks.pptx', 'C:/Users\\vivek\\Desktop\\client_data_source\\djksgsp.docx', 'C:/Users\\vivek\\Desktop\\client_data_source\\fajankss.xlsx', 'C:/Users\\vivek\\Desktop\\client_data_source\\glaahkal.ppt', 'C:/Users\\vivek\\Desktop\\client_data_source\\gSraawe.csv', 'C:/Users\\vivek\\Desktop\\client_data_source\\h_python-Slip.pdf', 'C:/Users\\vivek\\Desktop\\client_data_source\\Hi_Priya,.txt', 'C:/Users\\vivek\\Desktop\\client_data_source\\ikkaajs.xls', 'C:/Users\\vivek\\Desktop\\client_data_source\\llgaajajs.pptm', 'C:/Users\\vivek\\Desktop\\client_data_source\\oaopsp.doc', 'C:/Users\\vivek\\Desktop\\client_data_source\\qajshs.xlsm', 'C:/Users\\vivek\\Desktop\\client_data_source\\sample1.pdf', 'C:/Users\\vivek\\Desktop\\client_data_source\\sample2.pdf']
+2025-07-10 13:20:49,088 - INFO - [PATH RESOLVER] Absolute folder path resolved: C:\Users\vivek\Desktop\client_data_source
+2025-07-10 13:20:49,088 - INFO - [MAIN] Folder resolution result: {'absolute_path': 'C:\\Users\\vivek\\Desktop\\client_data_source'}
+2025-07-10 13:20:49,088 - INFO -                                                              
+2025-07-10 13:20:49,088 - INFO - [DATA PROVIDER] Data received in data_provider.py
+2025-07-10 13:20:49,088 - INFO - [DATA PROVIDER] Folder Path: C:/Users\vivek\Desktop\client_data_source
+2025-07-10 13:20:49,088 - INFO - [DATA PROVIDER] File List: ['byslsks.pptx', 'djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'gSraawe.csv', 'h_python-Slip.pdf', 'Hi_Priya,.txt', 'ikkaajs.xls', 'llgaajajs.pptm', 'oaopsp.doc', 'qajshs.xlsm', 'sample1.pdf', 'sample2.pdf']
+2025-07-10 13:20:49,088 - INFO -                                                              
+2025-07-10 13:20:49,089 - INFO - [DATA PROVIDER] Final grouped list of lists: [['fajankss.xlsx', 'gSraawe.csv', 'ikkaajs.xls', 'qajshs.xlsm'], ['h_python-Slip.pdf', 'sample1.pdf', 'sample2.pdf'], ['byslsks.pptx', 'glaahkal.ppt', 'llgaajajs.pptm'], ['Hi_Priya,.txt'], ['djksgsp.docx', 'oaopsp.doc'], []]
+
+2025-07-10 13:20:49,089 - INFO - [DATA PROVIDER] Full file paths: ['C:/Users\\vivek\\Desktop\\client_data_source\\byslsks.pptx', 'C:/Users\\vivek\\Desktop\\client_data_source\\djksgsp.docx', 'C:/Users\\vivek\\Desktop\\client_data_source\\fajankss.xlsx', 'C:/Users\\vivek\\Desktop\\client_data_source\\glaahkal.ppt', 'C:/Users\\vivek\\Desktop\\client_data_source\\gSraawe.csv', 'C:/Users\\vivek\\Desktop\\client_data_source\\h_python-Slip.pdf', 'C:/Users\\vivek\\Desktop\\client_data_source\\Hi_Priya,.txt', 'C:/Users\\vivek\\Desktop\\client_data_source\\ikkaajs.xls', 'C:/Users\\vivek\\Desktop\\client_data_source\\llgaajajs.pptm', 'C:/Users\\vivek\\Desktop\\client_data_source\\oaopsp.doc', 'C:/Users\\vivek\\Desktop\\client_data_source\\qajshs.xlsm', 'C:/Users\\vivek\\Desktop\\client_data_source\\sample1.pdf', 'C:/Users\\vivek\\Desktop\\client_data_source\\sample2.pdf']
+2025-07-10 13:22:13,825 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:22:46,826 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:23:21,344 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:23:54,402 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:24:28,441 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:25:02,881 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:25:35,429 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:26:07,523 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:26:40,001 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:27:16,306 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:27:50,478 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:28:24,656 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:28:58,295 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:29:31,815 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:30:04,507 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:30:38,077 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:33:01,292 - INFO - [BACKGROUND] File map updated.
+2025-07-10 13:33:40,418 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:14:48,757 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:15:30,662 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:15:56,432 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:16:39,038 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:17:22,197 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:18:09,555 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:18:53,763 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:19:49,463 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:20:29,366 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:21:09,970 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:21:52,587 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:22:34,036 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:23:15,612 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:23:58,140 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:24:39,974 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:25:21,328 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:26:02,564 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:26:42,926 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:27:22,393 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:28:04,723 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:28:45,643 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:29:27,870 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:30:10,041 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:30:52,213 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:31:32,715 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:32:14,382 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:32:54,683 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:33:38,854 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:34:24,175 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:35:08,003 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:35:52,423 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:36:36,567 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:37:20,122 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:38:05,638 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:38:50,347 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:39:34,938 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:40:18,330 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:41:02,378 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:41:45,954 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:42:29,402 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:43:13,363 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:43:55,225 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:44:36,469 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:45:18,632 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:46:00,621 - INFO - [BACKGROUND] File map updated.
+2025-07-10 19:46:43,896 - INFO - [BACKGROUND] File map updated.
+2025-07-10 22:24:39,606 - INFO - [BACKGROUND] File map updated.
+2025-07-10 22:25:16,602 - INFO - [BACKGROUND] File map updated.
+2025-07-10 22:25:40,218 - INFO - [BACKGROUND] File map updated.
+2025-07-10 22:26:03,583 - INFO - [BACKGROUND] File map updated.
+2025-07-10 22:26:48,129 - INFO - [BACKGROUND] File map updated.
+2025-07-10 22:27:32,072 - INFO - [BACKGROUND] File map updated.
+2025-07-10 22:28:14,998 - INFO - [BACKGROUND] File map updated.
+2025-07-10 22:28:59,145 - INFO - [BACKGROUND] File map updated.
+2025-07-10 22:29:42,885 - INFO - [BACKGROUND] File map updated.
+2025-07-10 22:30:25,875 - INFO - [BACKGROUND] File map updated.
+2025-07-10 22:31:09,695 - INFO - [BACKGROUND] File map updated.
+2025-07-10 22:31:52,451 - INFO - [BACKGROUND] File map updated.
+2025-07-10 22:32:35,828 - INFO - [BACKGROUND] File map updated.
+2025-07-10 22:33:19,445 - INFO - [BACKGROUND] File map updated.
+2025-07-10 22:34:03,422 - INFO - [BACKGROUND] File map updated.
+2025-07-10 22:34:47,048 - INFO - [BACKGROUND] File map updated.
+2025-07-10 22:35:29,027 - INFO - [BACKGROUND] File map updated.
+2025-07-10 22:36:12,204 - INFO - [BACKGROUND] File map updated.
+2025-07-10 22:36:56,665 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:13:07,647 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:13:44,056 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:14:08,147 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:14:49,594 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:15:33,456 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:16:15,226 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:16:58,057 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:17:42,224 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:18:26,238 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:19:07,453 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:19:50,194 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:20:29,310 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:21:11,420 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:21:55,604 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:22:39,270 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:38:59,689 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:39:26,984 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:39:51,277 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:40:22,232 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:41:05,399 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:41:50,346 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:42:35,074 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:43:18,934 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:44:03,277 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:44:46,469 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:45:30,068 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:46:13,094 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:46:57,930 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:47:42,773 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:48:26,634 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:49:10,405 - INFO - [BACKGROUND] File map updated.
+2025-07-11 18:49:54,515 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:06:15,578 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:06:40,918 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:07:04,928 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:07:30,650 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:08:14,855 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:08:59,102 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:09:44,032 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:10:28,552 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:11:13,432 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:11:57,832 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:12:41,700 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:13:26,992 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:14:12,583 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:14:56,297 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:15:40,148 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:16:23,947 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:17:06,798 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:17:50,774 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:18:35,964 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:19:21,528 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:20:05,651 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:20:50,867 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:21:32,011 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:22:16,882 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:23:00,518 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:23:45,501 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:24:30,318 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:25:14,608 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:25:59,233 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:26:43,752 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:27:29,420 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:28:13,471 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:28:57,068 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:29:41,283 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:30:25,920 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:31:11,793 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:31:56,037 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:32:39,877 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:33:24,362 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:34:09,069 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:34:49,051 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:35:34,741 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:36:18,431 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:37:01,546 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:37:44,809 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:38:28,641 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:39:13,391 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:39:58,796 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:40:42,813 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:41:27,200 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:42:12,242 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:42:55,672 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:43:39,183 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:44:23,633 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:45:08,293 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:45:51,181 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:46:34,362 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:47:17,804 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:48:02,484 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:48:46,436 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:49:29,301 - INFO - [BACKGROUND] File map updated.
+2025-07-11 19:50:13,930 - INFO - [BACKGROUND] File map updated.
+2025-07-12 01:48:26,206 - INFO - [BACKGROUND] File map updated.
+2025-07-12 01:49:04,548 - INFO - [BACKGROUND] File map updated.
+2025-07-12 01:49:28,600 - INFO - [BACKGROUND] File map updated.
+2025-07-12 01:50:03,514 - INFO - [BACKGROUND] File map updated.
+2025-07-12 01:50:48,050 - INFO - [BACKGROUND] File map updated.
+2025-07-12 01:51:34,152 - INFO - [BACKGROUND] File map updated.

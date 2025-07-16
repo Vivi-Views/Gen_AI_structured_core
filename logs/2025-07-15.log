@@ -1,0 +1,337 @@
+2025-07-15 18:30:15,387 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:30:42,391 - INFO -                                                              
+2025-07-15 18:30:42,392 - INFO - # ================= Started New Iteration ================= #
+2025-07-15 18:30:42,392 - INFO -                                                              
+2025-07-15 18:30:42,392 - INFO - [MAIN] API called: /select-files/
+2025-07-15 18:30:42,392 - INFO - [MAIN > select-files] Files received from frontend: ['INTRO.pptx']
+2025-07-15 18:30:42,392 - INFO -                                                              
+2025-07-15 18:30:42,395 - INFO - [MAIN] Resolved absolute paths: ['C:/Users\\vivek\\Desktop\\AYEIM\\INTRO.pptx']
+2025-07-15 18:30:42,395 - INFO -                                                              
+2025-07-15 18:30:42,395 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-15 18:30:42,395 - INFO - [PATH FILES SELECTOR] Folder path resolved: C:\Users\vivek\Desktop\AYEIM
+2025-07-15 18:30:42,395 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-15 18:30:42,395 - INFO - [PATH FILES SELECTOR] Files extracted: ['INTRO.pptx']
+2025-07-15 18:30:42,395 - INFO -                                                              
+2025-07-15 18:30:42,396 - INFO - [MAIN] Resolved absolute paths: ['C:/Users\\vivek\\Desktop\\AYEIM\\INTRO.pptx']
+2025-07-15 18:30:42,396 - INFO - [PATH RESOLVER] Absolute folder path resolved: C:\Users\vivek\Desktop\AYEIM
+2025-07-15 18:30:42,396 - INFO - [MAIN] Folder resolution result: {'absolute_path': 'C:\\Users\\vivek\\Desktop\\AYEIM'}
+2025-07-15 18:30:42,396 - INFO -                                                              
+2025-07-15 18:30:42,396 - INFO - [DATA EXTRACTOR] Data received in data_extractor.py
+2025-07-15 18:30:42,396 - INFO - [DATA EXTRACTOR] Folder Path: C:/Users\vivek\Desktop\AYEIM
+2025-07-15 18:30:42,396 - INFO - [DATA EXTRACTOR] File List: ['INTRO.pptx']
+2025-07-15 18:30:42,396 - INFO -                                                              
+2025-07-15 18:30:42,396 - INFO - [DATA EXTRACTOR] Full file paths: ['C:/Users\\vivek\\Desktop\\AYEIM\\INTRO.pptx']
+2025-07-15 18:30:48,922 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:31:22,520 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:31:57,781 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:32:31,628 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:33:04,531 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:33:37,816 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:34:10,794 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:34:43,524 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:35:17,140 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:35:50,329 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:36:24,234 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:36:57,372 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:36:59,314 - INFO -                                                              
+2025-07-15 18:36:59,314 - INFO - # ================= Started New Iteration ================= #
+2025-07-15 18:36:59,314 - INFO -                                                              
+2025-07-15 18:36:59,314 - INFO - [MAIN] API called: /select-files/
+2025-07-15 18:36:59,314 - INFO - [MAIN > select-files] Files received from frontend: ['djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'h_python-Slip.pdf', 'Hi_Priya,.txt']
+2025-07-15 18:36:59,314 - INFO -                                                              
+2025-07-15 18:36:59,314 - INFO - [MAIN] Resolved absolute paths: ['C:/Users\\vivek\\Desktop\\client_data_source\\djksgsp.docx', 'C:/Users\\vivek\\Desktop\\client_data_source\\fajankss.xlsx', 'C:/Users\\vivek\\Desktop\\client_data_source\\glaahkal.ppt', 'C:/Users\\vivek\\Desktop\\client_data_source\\h_python-Slip.pdf', 'C:/Users\\vivek\\Desktop\\client_data_source\\Hi_Priya,.txt']
+2025-07-15 18:36:59,314 - INFO -                                                              
+2025-07-15 18:36:59,314 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-15 18:36:59,314 - INFO - [PATH FILES SELECTOR] Folder path resolved: C:\Users\vivek\Desktop\client_data_source
+2025-07-15 18:36:59,314 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-15 18:36:59,315 - INFO - [PATH FILES SELECTOR] Files extracted: ['djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'h_python-Slip.pdf', 'Hi_Priya,.txt']
+2025-07-15 18:36:59,315 - INFO -                                                              
+2025-07-15 18:36:59,315 - INFO - [MAIN] Resolved absolute paths: ['C:/Users\\vivek\\Desktop\\client_data_source\\djksgsp.docx', 'C:/Users\\vivek\\Desktop\\client_data_source\\fajankss.xlsx', 'C:/Users\\vivek\\Desktop\\client_data_source\\glaahkal.ppt', 'C:/Users\\vivek\\Desktop\\client_data_source\\h_python-Slip.pdf', 'C:/Users\\vivek\\Desktop\\client_data_source\\Hi_Priya,.txt']
+2025-07-15 18:36:59,315 - INFO - [PATH RESOLVER] Absolute folder path resolved: C:\Users\vivek\Desktop\client_data_source
+2025-07-15 18:36:59,315 - INFO - [MAIN] Folder resolution result: {'absolute_path': 'C:\\Users\\vivek\\Desktop\\client_data_source'}
+2025-07-15 18:36:59,315 - INFO -                                                              
+2025-07-15 18:36:59,315 - INFO - [DATA EXTRACTOR] Data received in data_extractor.py
+2025-07-15 18:36:59,315 - INFO - [DATA EXTRACTOR] Folder Path: C:/Users\vivek\Desktop\client_data_source
+2025-07-15 18:36:59,315 - INFO - [DATA EXTRACTOR] File List: ['djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt', 'h_python-Slip.pdf', 'Hi_Priya,.txt']
+2025-07-15 18:36:59,315 - INFO -                                                              
+2025-07-15 18:36:59,315 - INFO - [DATA EXTRACTOR] Full file paths: ['C:/Users\\vivek\\Desktop\\client_data_source\\djksgsp.docx', 'C:/Users\\vivek\\Desktop\\client_data_source\\fajankss.xlsx', 'C:/Users\\vivek\\Desktop\\client_data_source\\glaahkal.ppt', 'C:/Users\\vivek\\Desktop\\client_data_source\\h_python-Slip.pdf', 'C:/Users\\vivek\\Desktop\\client_data_source\\Hi_Priya,.txt']
+2025-07-15 18:37:19,319 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:37:46,056 - INFO -                                                              
+2025-07-15 18:37:46,056 - INFO - # ================= Started New Iteration ================= #
+2025-07-15 18:37:46,056 - INFO -                                                              
+2025-07-15 18:37:46,056 - INFO - [MAIN] API called: /select-files/
+2025-07-15 18:37:46,056 - INFO - [MAIN > select-files] Files received from frontend: ['djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt']
+2025-07-15 18:37:46,056 - INFO -                                                              
+2025-07-15 18:37:46,056 - INFO - [MAIN] Resolved absolute paths: ['C:/Users\\vivek\\Desktop\\client_data_source\\djksgsp.docx', 'C:/Users\\vivek\\Desktop\\client_data_source\\fajankss.xlsx', 'C:/Users\\vivek\\Desktop\\client_data_source\\glaahkal.ppt']
+2025-07-15 18:37:46,056 - INFO -                                                              
+2025-07-15 18:37:46,057 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-15 18:37:46,057 - INFO - [PATH FILES SELECTOR] Folder path resolved: C:\Users\vivek\Desktop\client_data_source
+2025-07-15 18:37:46,057 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-15 18:37:46,057 - INFO - [PATH FILES SELECTOR] Files extracted: ['djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt']
+2025-07-15 18:37:46,057 - INFO -                                                              
+2025-07-15 18:37:46,057 - INFO - [MAIN] Resolved absolute paths: ['C:/Users\\vivek\\Desktop\\client_data_source\\djksgsp.docx', 'C:/Users\\vivek\\Desktop\\client_data_source\\fajankss.xlsx', 'C:/Users\\vivek\\Desktop\\client_data_source\\glaahkal.ppt']
+2025-07-15 18:37:46,057 - INFO - [PATH RESOLVER] Absolute folder path resolved: C:\Users\vivek\Desktop\client_data_source
+2025-07-15 18:37:46,057 - INFO - [MAIN] Folder resolution result: {'absolute_path': 'C:\\Users\\vivek\\Desktop\\client_data_source'}
+2025-07-15 18:37:46,057 - INFO -                                                              
+2025-07-15 18:37:46,057 - INFO - [DATA EXTRACTOR] Data received in data_extractor.py
+2025-07-15 18:37:46,057 - INFO - [DATA EXTRACTOR] Folder Path: C:/Users\vivek\Desktop\client_data_source
+2025-07-15 18:37:46,058 - INFO - [DATA EXTRACTOR] File List: ['djksgsp.docx', 'fajankss.xlsx', 'glaahkal.ppt']
+2025-07-15 18:37:46,058 - INFO -                                                              
+2025-07-15 18:37:46,058 - INFO - [DATA EXTRACTOR] Full file paths: ['C:/Users\\vivek\\Desktop\\client_data_source\\djksgsp.docx', 'C:/Users\\vivek\\Desktop\\client_data_source\\fajankss.xlsx', 'C:/Users\\vivek\\Desktop\\client_data_source\\glaahkal.ppt']
+2025-07-15 18:37:46,058 - INFO - [DATA EXTRACTOR] Now processing: C:/Users\vivek\Desktop\client_data_source\djksgsp.docx
+2025-07-15 18:37:46,058 - INFO - [DATA EXTRACTOR] Now processing: C:/Users\vivek\Desktop\client_data_source\fajankss.xlsx
+2025-07-15 18:37:46,058 - INFO - [DATA EXTRACTOR] Now processing: C:/Users\vivek\Desktop\client_data_source\glaahkal.ppt
+2025-07-15 18:38:05,574 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:38:37,961 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:39:10,564 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:39:43,278 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:40:16,152 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:40:49,251 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:41:21,726 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:41:54,093 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:42:26,543 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:42:59,870 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:43:32,659 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:44:05,956 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:44:40,185 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:45:13,096 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:45:45,792 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:46:18,594 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:46:51,357 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:47:25,598 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:47:59,755 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:48:32,838 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:49:06,163 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:49:38,865 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:50:12,620 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:50:46,088 - INFO - [BACKGROUND] File map updated.
+2025-07-15 18:59:30,067 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:00:05,050 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:00:39,098 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:01:13,593 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:01:39,864 - INFO -                                                              
+2025-07-15 19:01:39,864 - INFO - # ================= Started New Iteration ================= #
+2025-07-15 19:01:39,864 - INFO -                                                              
+2025-07-15 19:01:39,864 - INFO - [MAIN] API called: /select-files/
+2025-07-15 19:01:39,864 - INFO - [MAIN > select-files] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx']
+2025-07-15 19:01:39,865 - INFO -                                                              
+2025-07-15 19:01:39,865 - INFO - [MAIN] Resolved absolute paths: ['C:/Users\\vivek\\Desktop\\client_data_source\\byslsks.pptx', 'C:/Users\\vivek\\Desktop\\client_data_source\\djksgsp.docx']
+2025-07-15 19:01:39,865 - INFO -                                                              
+2025-07-15 19:01:39,865 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-15 19:01:39,865 - INFO - [PATH FILES SELECTOR] Folder path resolved: C:\Users\vivek\Desktop\client_data_source
+2025-07-15 19:01:39,865 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-15 19:01:39,865 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx']
+2025-07-15 19:01:39,865 - INFO -                                                              
+2025-07-15 19:01:39,865 - INFO - [MAIN] Resolved absolute paths: ['C:/Users\\vivek\\Desktop\\client_data_source\\byslsks.pptx', 'C:/Users\\vivek\\Desktop\\client_data_source\\djksgsp.docx']
+2025-07-15 19:01:39,865 - INFO - [PATH RESOLVER] Absolute folder path resolved: C:\Users\vivek\Desktop\client_data_source
+2025-07-15 19:01:39,865 - INFO - [MAIN] Folder resolution result: {'absolute_path': 'C:\\Users\\vivek\\Desktop\\client_data_source'}
+2025-07-15 19:01:39,866 - INFO -                                                              
+2025-07-15 19:01:39,866 - INFO - [DATA EXTRACTOR] Data received in data_extractor.py
+2025-07-15 19:01:39,866 - INFO - [DATA EXTRACTOR] Folder Path: C:/Users\vivek\Desktop\client_data_source
+2025-07-15 19:01:39,866 - INFO - [DATA EXTRACTOR] File List: ['byslsks.pptx', 'djksgsp.docx']
+2025-07-15 19:01:39,866 - INFO -                                                              
+2025-07-15 19:01:39,866 - INFO - [DATA EXTRACTOR] Full file paths: ['C:/Users\\vivek\\Desktop\\client_data_source\\byslsks.pptx', 'C:/Users\\vivek\\Desktop\\client_data_source\\djksgsp.docx']
+2025-07-15 19:01:39,866 - INFO - [DATA EXTRACTOR] Now processing: C:/Users\vivek\Desktop\client_data_source\byslsks.pptx
+2025-07-15 19:01:39,866 - INFO - [DATA EXTRACTOR] Now processing: C:/Users\vivek\Desktop\client_data_source\djksgsp.docx
+2025-07-15 19:02:05,889 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:02:08,970 - INFO -                                                              
+2025-07-15 19:02:08,970 - INFO - # ================= Started New Iteration ================= #
+2025-07-15 19:02:08,970 - INFO -                                                              
+2025-07-15 19:02:08,970 - INFO - [MAIN] API called: /select-files/
+2025-07-15 19:02:08,970 - INFO - [MAIN > select-files] Files received from frontend: ['byslsks.pptx', 'djksgsp.docx']
+2025-07-15 19:02:08,970 - INFO -                                                              
+2025-07-15 19:02:08,970 - INFO - [MAIN] Resolved absolute paths: ['C:/Users\\vivek\\Desktop\\client_data_source\\byslsks.pptx', 'C:/Users\\vivek\\Desktop\\client_data_source\\djksgsp.docx']
+2025-07-15 19:02:08,970 - INFO -                                                              
+2025-07-15 19:02:08,970 - INFO - [PATH FILES SELECTOR] main.py is sending the file names into this function.
+2025-07-15 19:02:08,970 - INFO - [PATH FILES SELECTOR] Folder path resolved: C:\Users\vivek\Desktop\client_data_source
+2025-07-15 19:02:08,970 - INFO - webpage will not give the absolute path of the files for security reasons.
+2025-07-15 19:02:08,970 - INFO - [PATH FILES SELECTOR] Files extracted: ['byslsks.pptx', 'djksgsp.docx']
+2025-07-15 19:02:08,971 - INFO -                                                              
+2025-07-15 19:02:08,971 - INFO - [MAIN] Resolved absolute paths: ['C:/Users\\vivek\\Desktop\\client_data_source\\byslsks.pptx', 'C:/Users\\vivek\\Desktop\\client_data_source\\djksgsp.docx']
+2025-07-15 19:02:08,971 - INFO - [PATH RESOLVER] Absolute folder path resolved: C:\Users\vivek\Desktop\client_data_source
+2025-07-15 19:02:08,971 - INFO - [MAIN] Folder resolution result: {'absolute_path': 'C:\\Users\\vivek\\Desktop\\client_data_source'}
+2025-07-15 19:02:08,971 - INFO -                                                              
+2025-07-15 19:02:08,971 - INFO - [DATA EXTRACTOR] Data received in data_extractor.py
+2025-07-15 19:02:08,971 - INFO - [DATA EXTRACTOR] Folder Path: C:/Users\vivek\Desktop\client_data_source
+2025-07-15 19:02:08,971 - INFO - [DATA EXTRACTOR] File List: ['byslsks.pptx', 'djksgsp.docx']
+2025-07-15 19:02:08,971 - INFO -                                                              
+2025-07-15 19:02:08,971 - INFO - [DATA EXTRACTOR] Full file paths: ['C:/Users\\vivek\\Desktop\\client_data_source\\byslsks.pptx', 'C:/Users\\vivek\\Desktop\\client_data_source\\djksgsp.docx']
+2025-07-15 19:02:08,971 - INFO - [DATA EXTRACTOR] Now processing: C:/Users\vivek\Desktop\client_data_source\byslsks.pptx
+2025-07-15 19:02:08,971 - INFO - [DATA EXTRACTOR] Now processing: C:/Users\vivek\Desktop\client_data_source\djksgsp.docx
+2025-07-15 19:02:35,222 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:03:08,943 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:03:43,262 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:04:17,591 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:04:51,796 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:05:28,160 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:06:05,604 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:06:40,006 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:07:14,875 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:07:49,801 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:08:23,974 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:08:58,226 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:09:32,332 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:10:06,602 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:10:41,134 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:11:15,382 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:11:50,415 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:12:25,235 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:12:59,978 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:13:34,141 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:14:08,253 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:14:42,494 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:15:16,992 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:15:53,862 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:16:19,885 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:16:53,083 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:17:26,351 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:18:00,539 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:18:35,604 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:19:12,137 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:19:45,864 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:20:19,739 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:20:53,999 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:21:27,633 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:22:02,800 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:22:38,000 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:23:14,639 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:23:48,937 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:24:22,647 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:24:56,406 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:25:30,485 - INFO - [BACKGROUND] File map updated.
+2025-07-15 19:26:05,884 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:44:03,771 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:44:28,722 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:44:48,286 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:45:07,254 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:45:42,728 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:46:18,671 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:46:53,783 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:47:30,935 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:48:07,139 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:48:42,047 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:49:17,444 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:49:53,999 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:50:30,505 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:51:06,392 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:51:40,869 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:52:17,122 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:52:53,394 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:53:28,218 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:54:03,916 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:54:39,062 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:55:13,460 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:55:47,919 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:56:23,947 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:56:58,910 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:57:35,700 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:58:11,960 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:58:48,340 - INFO - [BACKGROUND] File map updated.
+2025-07-16 00:59:25,110 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:00:00,394 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:00:35,590 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:01:12,255 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:01:46,994 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:02:23,131 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:02:58,132 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:03:33,530 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:04:10,001 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:04:46,207 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:05:22,573 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:05:57,973 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:06:32,740 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:07:09,091 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:07:45,341 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:08:22,144 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:08:59,075 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:09:34,906 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:10:11,862 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:10:48,417 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:11:24,857 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:12:01,751 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:12:38,506 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:13:15,630 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:13:50,857 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:14:26,881 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:15:03,477 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:15:40,432 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:16:17,717 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:16:53,728 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:17:30,551 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:18:06,628 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:18:42,453 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:19:18,988 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:19:56,249 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:20:33,418 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:21:09,163 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:21:44,779 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:22:20,986 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:22:56,856 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:23:33,544 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:24:11,206 - INFO - [BACKGROUND] File map updated.
+2025-07-16 01:24:45,911 - INFO - [BACKGROUND] File map updated.
+2025-07-16 10:51:17,810 - INFO - [BACKGROUND] File map updated.
+2025-07-16 10:52:08,289 - INFO - [BACKGROUND] File map updated.
+2025-07-16 10:52:54,574 - INFO - [BACKGROUND] File map updated.
+2025-07-16 10:53:38,805 - INFO - [BACKGROUND] File map updated.
+2025-07-16 10:54:24,686 - INFO - [BACKGROUND] File map updated.
+2025-07-16 10:55:09,410 - INFO - [BACKGROUND] File map updated.
+2025-07-16 10:55:56,799 - INFO - [BACKGROUND] File map updated.
+2025-07-16 10:56:42,419 - INFO - [BACKGROUND] File map updated.
+2025-07-16 10:57:29,234 - INFO - [BACKGROUND] File map updated.
+2025-07-16 10:58:17,125 - INFO - [BACKGROUND] File map updated.
+2025-07-16 15:54:39,981 - INFO - [BACKGROUND] File map updated.
+2025-07-16 15:55:08,195 - INFO - [BACKGROUND] File map updated.
+2025-07-16 15:55:34,394 - INFO - [BACKGROUND] File map updated.
+2025-07-16 15:56:19,871 - INFO - [BACKGROUND] File map updated.
+2025-07-16 15:57:04,067 - INFO - [BACKGROUND] File map updated.
+2025-07-16 15:57:50,166 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:04:35,468 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:05:19,821 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:06:08,518 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:06:54,986 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:07:41,291 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:08:27,841 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:09:13,952 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:10:02,034 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:10:50,081 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:11:37,443 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:12:25,529 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:13:12,356 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:13:59,285 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:14:47,577 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:15:35,051 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:16:22,908 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:17:09,902 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:17:58,152 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:18:46,157 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:19:29,462 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:20:12,409 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:20:58,351 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:21:46,087 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:22:33,714 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:23:21,314 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:24:07,926 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:24:55,553 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:25:51,869 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:26:39,793 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:27:25,794 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:28:12,615 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:28:56,224 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:29:48,487 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:30:45,294 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:31:47,013 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:32:46,485 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:33:54,870 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:34:53,063 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:35:53,094 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:36:56,105 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:38:03,764 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:39:17,242 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:40:12,019 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:41:05,588 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:42:05,824 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:43:11,845 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:44:10,198 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:45:10,614 - INFO - [BACKGROUND] File map updated.
+2025-07-16 16:46:09,755 - INFO - [BACKGROUND] File map updated.
